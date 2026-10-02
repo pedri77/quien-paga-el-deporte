@@ -9,47 +9,71 @@
 <meta property="og:description" content="El 1 % de las entidades deportivas se lleva el 49 % de las subvenciones. El fútbol, el 8 %. La mediana por entidad: 4.726 €.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%276%27 fill=%27%231f7a4d%27/%3E%3C/svg%3E">
 <style>
-  :root { --bg:#f3f6f4; --paper:#fff; --ink:#17201b; --ink-2:#5a6861; --line:#d5ddd8; --accent:#1f7a4d;
-          --bar:#8fc4a8; --bar-hi:#1f7a4d; --warn:#b3382f; color-scheme: light; }
-  @media (prefers-color-scheme: dark) { :root { --bg:#111614; --paper:#181f1b; --ink:#eaf1ec; --ink-2:#9fb0a6; --line:#2a3530; --accent:#5fc48f; --bar:#2f5c45; --bar-hi:#5fc48f; --warn:#e0645a; color-scheme: dark; } }
+  :root { --bg:#f4f7f5; --paper:#fff; --ink:#15211b; --ink-2:#56665e; --line:#d6e0da; --accent:#1b8a55; --accent-ink:#0f5a37;
+          --warn:#c2412f; --hero:#e6f4ec;
+          --c-estado:#1b8a55; --c-ccaa:#2b7fd1; --c-local:#e38b1e;
+          --t1:#1b8a55; --t2:#5fb57a; --t3:#2b7fd1; --t4:#8b5cf6; --t5:#e38b1e; --t6:#d9488a; --t7:#8a9690;
+          --on-bar:#fff; --r:12px; color-scheme: light; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0f1512; --paper:#161e19; --ink:#e9f0ec; --ink-2:#9db0a6; --line:#263129; --accent:#4fcf8c; --accent-ink:#9ee6bf;
+          --warn:#ef6a58; --hero:#14241b; --c-estado:#4fcf8c; --c-ccaa:#5fa3ea; --c-local:#f0a548;
+          --t1:#4fcf8c; --t2:#8fd9a6; --t3:#5fa3ea; --t4:#a78bfa; --t5:#f0a548; --t6:#ef7fb0; --t7:#6f7f77; --on-bar:#0f1512; color-scheme: dark; } }
   * { box-sizing:border-box; }
+  html { scroll-behavior:smooth; }
   body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif; }
   .wrap { max-width:1100px; margin:0 auto; padding:24px 20px 60px; }
-  h1 { font-size:clamp(1.9rem,4vw,3rem); line-height:1.08; margin:10px 0; letter-spacing:-.02em; }
-  h2 { font-size:1.35rem; margin:38px 0 6px; }
-  .lede { color:var(--ink-2); max-width:66ch; font-size:1.05rem; }
-  .eyebrow { font-size:.78rem; text-transform:uppercase; letter-spacing:.08em; color:var(--accent); font-weight:700; margin:0; }
-  .kpis { display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); gap:14px; margin:26px 0 10px; }
-  .kpi { background:var(--paper); border:1px solid var(--line); border-radius:10px; padding:16px; }
-  .kpi b { display:block; font-size:1.9rem; font-weight:800; line-height:1.1; font-variant-numeric:tabular-nums; }
+  h1 { font-size:clamp(2.2rem,5vw,3.6rem); line-height:1.02; margin:8px 0 14px; letter-spacing:-.03em; font-weight:800; }
+  h2 { font-size:1.45rem; margin:46px 0 8px; letter-spacing:-.015em; padding-left:14px; border-left:4px solid var(--sec,var(--accent)); line-height:1.2; }
+  .lede { color:var(--ink-2); max-width:62ch; font-size:1.08rem; margin:0; }
+  .eyebrow { font-size:.76rem; text-transform:uppercase; letter-spacing:.09em; color:var(--accent-ink); font-weight:700; margin:0; }
+  .hero { display:grid; grid-template-columns:1.25fr .9fr; gap:28px; align-items:center; background:linear-gradient(135deg,var(--hero),var(--paper) 70%); border:1px solid var(--line); border-radius:var(--r); padding:30px 32px; margin-bottom:8px; }
+  .hero-num { text-align:right; }
+  .hero-num b { display:block; font-size:clamp(3rem,7vw,5.2rem); font-weight:900; letter-spacing:-.04em; line-height:.95; color:var(--accent); font-variant-numeric:tabular-nums; }
+  .hero-num span { color:var(--ink-2); font-size:1rem; }
+  .hero-num span { display:block; }
+  .hero-num .anio { display:flex; gap:8px; align-items:center; margin-top:14px; justify-content:flex-end; }
+  @media (max-width:760px) { .hero-num .anio { justify-content:flex-start; } }
+  @media (max-width:760px) { .hero { grid-template-columns:1fr; } .hero-num { text-align:left; } }
+  .kpis { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:14px; margin:22px 0 10px; }
+  .kpi { background:var(--paper); border:1px solid var(--line); border-top:4px solid var(--sec,var(--accent)); border-radius:var(--r); padding:16px; }
+  .kpi b { display:block; font-size:1.95rem; font-weight:800; line-height:1.1; font-variant-numeric:tabular-nums; letter-spacing:-.02em; color:var(--sec,var(--ink)); }
   .kpi span { color:var(--ink-2); font-size:.9rem; }
-  .card { background:var(--paper); border:1px solid var(--line); border-radius:10px; padding:16px; overflow-x:auto; margin-top:12px; }
-  .aviso { border-left:3px solid var(--accent); padding:10px 14px; background:var(--paper); border-radius:0 8px 8px 0; margin:18px 0; }
-  .aviso.warn { border-left-color:var(--warn); }
+  .sec-azul { --sec:var(--c-ccaa); } .sec-naranja { --sec:var(--c-local); } .sec-rosa { --sec:var(--t6); } .sec-violeta { --sec:var(--t4); } .sec-rojo { --sec:var(--warn); }
+  .card { background:var(--paper); border:1px solid var(--line); border-radius:var(--r); padding:18px; overflow-x:auto; margin-top:12px; }
+  .aviso { border-left:4px solid var(--accent); padding:12px 16px; background:var(--paper); border-radius:0 var(--r) var(--r) 0; margin:18px 0; }
+  .aviso.warn { border-left-color:var(--warn); background:color-mix(in srgb, var(--warn) 7%, var(--paper)); }
   .nota { font-size:.87rem; color:var(--ink-2); margin-top:10px; }
-  a { color:var(--accent); }
-  select { font:inherit; padding:7px 10px; border-radius:8px; border:1px solid var(--line); background:var(--paper); color:var(--ink); }
-  .ctrl { display:flex; gap:12px; align-items:center; flex-wrap:wrap; margin:14px 0 4px; }
+  a { color:var(--accent-ink); }
+  select { font:inherit; padding:7px 12px; border-radius:999px; border:1px solid var(--line); background:var(--paper); color:var(--ink); font-weight:600; }
   svg { width:100%; height:auto; display:block; }
+  .leyenda { display:flex; flex-wrap:wrap; gap:14px 18px; font-size:.85rem; color:var(--ink-2); margin-top:10px; }
+  .leyenda i { display:inline-block; width:12px; height:12px; border-radius:3px; vertical-align:-1px; margin-right:6px; }
   table { width:100%; border-collapse:collapse; font-variant-numeric:tabular-nums; font-size:.92rem; }
-  th,td { padding:8px 10px; border-bottom:1px solid var(--line); text-align:left; }
+  th,td { padding:9px 10px; border-bottom:1px solid var(--line); text-align:left; }
+  tbody tr:hover td { background:color-mix(in srgb, var(--accent) 6%, transparent); }
   td.r, th.r { text-align:right; }
-  th { font-size:.73rem; text-transform:uppercase; letter-spacing:.05em; color:var(--ink-2); cursor:pointer; user-select:none; }
+  th { font-size:.72rem; text-transform:uppercase; letter-spacing:.05em; color:var(--ink-2); cursor:pointer; user-select:none; }
   .bar { position:relative; }
-  .bar i { position:absolute; inset:0 auto 0 0; background:var(--bar); opacity:.35; border-radius:3px; }
+  .bar i { position:absolute; inset:0 auto 0 0; background:var(--accent); opacity:.18; border-radius:4px; }
   .bar span { position:relative; }
+  .chip { display:inline-block; font-size:.74rem; font-weight:600; padding:2px 9px; border-radius:999px; color:var(--on-bar); white-space:nowrap; }
   .tag { display:inline-block; font-size:.72rem; padding:1px 7px; border-radius:999px; border:1px solid var(--line); color:var(--ink-2); margin-left:6px; vertical-align:middle; white-space:nowrap; }
-  footer { margin-top:44px; border-top:1px solid var(--line); padding-top:16px; font-size:.87rem; color:var(--ink-2); }
+  .guia p { padding-left:14px; border-left:3px solid var(--line); }
+  footer { margin-top:48px; border-top:1px solid var(--line); padding-top:18px; font-size:.87rem; color:var(--ink-2); }
   code { background:var(--bg); padding:1px 5px; border-radius:4px; font-size:.85em; }
+  @media (prefers-reduced-motion: no-preference) { .kpi, .card { transition:transform .15s ease; } }
 </style>
 </head>
 <body>
 <div class="wrap">
-  <p class="eyebrow">Construido con IA · Episodio 16 · Base de Datos Nacional de Subvenciones</p>
-  <h1>¿Quién paga el deporte?</h1>
-  <p class="lede">Todas las subvenciones públicas que recibieron las entidades deportivas de España en 2024 y 2025: quién las da, quién las cobra, qué deporte se lleva más y cuánto de todo eso es fútbol. Sale de la Base de Datos Nacional de Subvenciones, entidad a entidad.</p>
+  <div class="hero">
+    <div>
+      <p class="eyebrow">Construido con IA · Episodio 16 · Base de Datos Nacional de Subvenciones</p>
+      <h1>¿Quién paga el deporte?</h1>
+      <p class="lede">Todas las subvenciones públicas que recibieron las entidades deportivas de España en 2024 y 2025: quién las da, quién las cobra, qué deporte se lleva más y cuánto de todo eso es fútbol. Entidad a entidad.</p>
+    </div>
+    <div class="hero-num"><b id="hero-num"></b><span id="hero-sub"></span><div class="anio"><label for="anio">Año</label><select id="anio"></select></div></div>
+  </div>
 
-  <div class="ctrl"><label for="anio">Año</label><select id="anio"></select></div>
   <div class="kpis" id="kpis"></div>
   <p class="nota" id="nota-kpis"></p>
 
@@ -57,24 +81,24 @@
     <strong>Esto no es «el gasto público en deporte».</strong> Es lo que las administraciones publican como subvención o ayuda a entidades cuyo nombre las identifica como deportivas (federaciones, clubes, sociedades anónimas deportivas, empresas de gestión deportiva). No incluye el gasto directo de los ayuntamientos en sus instalaciones, los contratos, las cesiones de uso ni el deporte escolar en los presupuestos de educación. Y la identificación por nombre tiene un error medido, explicado al final.
   </div>
 
-  <h2>Quién la da: Estado, comunidades, ayuntamientos</h2>
-  <div class="card"><svg id="g-admin" role="img" aria-label="Importe por nivel de administración"></svg></div>
+  <h2 class="sec-azul">Quién la da: Estado, comunidades, ayuntamientos</h2>
+  <div class="card"><svg id="g-admin" role="img" aria-label="Importe por nivel de administración"></svg><div class="leyenda" id="ley-admin"></div></div>
   <p class="nota" id="nota-admin"></p>
 
-  <h2>Quién la cobra: federaciones, clubes y empresas</h2>
+  <h2 class="sec-violeta">Quién la cobra: federaciones, clubes y empresas</h2>
   <div class="card"><svg id="g-tipo" role="img" aria-label="Importe por tipo de beneficiario"></svg></div>
   <p class="nota" id="nota-tipo"></p>
 
-  <h2>Qué deporte se lleva más</h2>
+  <h2 class="sec-naranja">Qué deporte se lleva más</h2>
   <div class="card"><svg id="g-dep" role="img" aria-label="Importe por deporte"></svg></div>
   <p class="nota" id="nota-dep"></p>
 
-  <h2>Cuánto es fútbol</h2>
-  <div class="kpis" id="kpis-futbol"></div>
+  <h2 class="sec-rosa">Cuánto es fútbol</h2>
+  <div class="kpis sec-rosa" id="kpis-futbol"></div>
   <p class="nota" id="nota-futbol"></p>
 
-  <h2>La concentración: pocos cobran mucho</h2>
-  <div class="kpis" id="kpis-conc"></div>
+  <h2 class="sec-rojo">La concentración: pocos cobran mucho</h2>
+  <div class="kpis sec-rojo" id="kpis-conc"></div>
   <p class="nota" id="nota-conc"></p>
 
   <h2>Las 100 entidades que más cobran</h2>
@@ -86,7 +110,7 @@
   <p class="nota" id="nota-org"></p>
 
   <h2>Cómo leer esto sin equivocarse</h2>
-  <div class="card">
+  <div class="card guia">
     <p style="margin-top:0"><strong>La BDNS no tiene una categoría «Deporte».</strong> Lo mete dentro de «Cultura». Para aislarlo se clasifica cada beneficiario por su nombre (federación de atletismo, club deportivo, SAD, patronato municipal de deportes…) y, como señal secundaria, las convocatorias cuyo sector CNAE es exclusivamente deportivo (apenas el 0,7 % del importe). El clasificador se midió a mano sobre 100 entidades: de 50 positivas, 49 eran deportivas de verdad; de 50 nombres ambiguos descartados, 11 sí lo eran. La pérdida estimada por ambigüedad ronda 13 millones en dos años (1,2 %). Los clubes cuyo nombre no delata el deporte no se pueden recuperar y no se estiman.</p>
     <p><strong>Un 6 % no es dinero entregado.</strong> Son garantías (avales de CERSA e ICO) y préstamos, que la BDNS publica como ayuda. Están separados en los datos y se dicen aquí.</p>
     <p><strong>2025 crece sobre todo por fechas, no solo por dinero.</strong> El Consejo Superior de Deportes concedió a las federaciones españolas 149,6 millones en 2025 frente a 59,3 en 2024: buena parte es que las concesiones de un ejercicio se publican en el siguiente. Comparar los dos años como una tendencia es un error.</p>
@@ -94,7 +118,7 @@
   </div>
 
   <footer>
-    <p><strong>Fuente:</strong> Base de Datos Nacional de Subvenciones (BDNS), Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas, IGAE · Ministerio de Hacienda — <a href="https://www.infosubvenciones.es/">infosubvenciones.es</a>, API pública de concesiones, descarga completa de 2024 y 2025 (altas hasta septiembre de 2026). <span id="gen"></span> La clasificación de beneficiarios y los agregados son de elaboración propia; la IGAE no participa ni avala esta reutilización.</p>
+    <p><strong>Fuente:</strong> Base de Datos Nacional de Subvenciones (BDNS), Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas, IGAE · Ministerio de Hacienda · <a href="https://www.infosubvenciones.es/">infosubvenciones.es</a>, API pública de concesiones, descarga completa de 2024 y 2025 (altas hasta septiembre de 2026). <span id="gen"></span> La clasificación de beneficiarios y los agregados son de elaboración propia; la IGAE no participa ni avala esta reutilización.</p>
     <p>Código y datos abiertos: <a href="https://github.com/pedri77/quien-paga-el-deporte">github.com/pedri77/quien-paga-el-deporte</a> · Hermano de <a href="https://pedri77.github.io/quien-cobra/">¿Quién cobra?</a> (todas las subvenciones) · Serie <a href="https://iacedemy.com/free/yt/construido-con-ia/">«Construido con IA»</a> de IAcademy · <a href="https://iacedemy.com/kit-observatorio">Kit gratis para construir el tuyo</a></p>
   </footer>
 </div>
@@ -121,16 +145,30 @@ $('#gen').textContent = `Descarga de la BDNS cerrada en septiembre de 2026.`;
 const NS = 'http://www.w3.org/2000/svg';
 const svgAdd = (el, t, a, txt) => { const e = document.createElementNS(NS, t); for (const k in a) e.setAttribute(k, a[k]); if (txt != null) e.textContent = txt; el.appendChild(e); return e; };
 
-function barras(el, filas, { etiqueta, valor, fmt, resaltar = () => false, l = 230 }) {
-  const W = 760, m = { t: 10, r: 120, b: 8, l };
-  const alto = filas.length * 30 + m.t + m.b;
+function barras(el, filas, { etiqueta, valor, fmt, color = () => 'var(--accent)', l = 230 }) {
+  const W = 760, m = { t: 10, r: 200, b: 8, l };
+  const alto = filas.length * 32 + m.t + m.b;
   const h = (alto - m.t - m.b) / filas.length, max = Math.max(...filas.map(valor));
   el.setAttribute('viewBox', `0 0 ${W} ${alto}`); el.innerHTML = '';
   filas.forEach((f, i) => {
     const yy = m.t + i * h, w = (W - m.l - m.r) * valor(f) / max;
-    svgAdd(el, 'rect', { x: m.l, y: yy + 3, width: Math.max(w, 1), height: h - 8, rx: 3, fill: resaltar(f) ? 'var(--warn)' : 'var(--bar-hi)', 'fill-opacity': resaltar(f) ? .7 : .85 });
-    svgAdd(el, 'text', { x: m.l - 8, y: yy + h / 2 + 4, 'text-anchor': 'end', 'font-size': 12, fill: 'var(--ink)' }, etiqueta(f));
-    svgAdd(el, 'text', { x: m.l + w + 6, y: yy + h / 2 + 4, 'font-size': 12, fill: 'var(--ink-2)' }, fmt(f));
+    svgAdd(el, 'rect', { x: m.l, y: yy + 4, width: W - m.l - m.r, height: h - 10, rx: 5, fill: 'var(--line)', 'fill-opacity': .35 });
+    svgAdd(el, 'rect', { x: m.l, y: yy + 4, width: Math.max(w, 2), height: h - 10, rx: 5, fill: color(f) });
+    svgAdd(el, 'text', { x: m.l - 10, y: yy + h / 2 + 4, 'text-anchor': 'end', 'font-size': 12.5, 'font-weight': 600, fill: 'var(--ink)' }, etiqueta(f));
+    svgAdd(el, 'text', { x: m.l + Math.max(w, 2) + 8, y: yy + h / 2 + 4, 'font-size': 12, fill: 'var(--ink-2)' }, fmt(f));
+  });
+}
+
+// Barra apilada al 100 %: el reparto se ve de un vistazo, con el porcentaje dentro de cada tramo.
+function apilada(el, filas, { valor, etiqueta, color }) {
+  const W = 760, H = 64, tot = filas.reduce((s, f) => s + valor(f), 0);
+  el.setAttribute('viewBox', `0 0 ${W} ${H}`); el.innerHTML = '';
+  let x = 0;
+  filas.forEach((f) => {
+    const w = W * valor(f) / tot;
+    svgAdd(el, 'rect', { x, y: 8, width: Math.max(w - 2, 1), height: 48, rx: 6, fill: color(f) });
+    if (w > 110) svgAdd(el, 'text', { x: x + 14, y: 38, 'font-size': 15, 'font-weight': 700, fill: 'var(--on-bar)' }, etiqueta(f));
+    x += w;
   });
 }
 
@@ -147,13 +185,15 @@ function tabla(el, cols, filas, ordenInicial) {
 }
 
 const DEP = { sin_clasificar: 'Sin deporte identificable en el nombre', futbol: 'Fútbol', baloncesto: 'Baloncesto', natacion: 'Natación', motor: 'Motor (circuitos, automovilismo, motociclismo)', atletismo: 'Atletismo', vela_nautica: 'Vela y náutica', balonmano: 'Balonmano', remo_piraguismo: 'Remo y piragüismo', voleibol: 'Voleibol', artes_marciales: 'Artes marciales', ciclismo: 'Ciclismo', halterofilia_lucha: 'Halterofilia y lucha', hockey: 'Hockey', tenis: 'Tenis', esqui_invierno: 'Esquí y deportes de invierno', rugby: 'Rugby', golf: 'Golf', gimnasia: 'Gimnasia', triatlon: 'Triatlón', deporte_adaptado: 'Deporte adaptado', patinaje: 'Patinaje', montana_escalada: 'Montaña y escalada', tiro: 'Tiro', tenis_de_mesa: 'Tenis de mesa', pelota: 'Pelota', hipica: 'Hípica', badminton: 'Bádminton', esgrima: 'Esgrima', otros_deportes: 'Otros deportes', boxeo: 'Boxeo', padel: 'Pádel', caza_pesca: 'Caza y pesca', ajedrez: 'Ajedrez', beisbol_softbol: 'Béisbol y sóftbol', petanca_bolos: 'Petanca y bolos', orientacion: 'Orientación', squash: 'Squash', aeronautica: 'Aeronáutica' };
+const CT = { federacion_nacional: 'var(--t1)', federacion_autonomica: 'var(--t2)', club: 'var(--t3)', sad: 'var(--t4)', empresa_deportiva: 'var(--t5)', entidad_publica: 'var(--t6)', otro: 'var(--t7)' };
 const TIPO = { federacion_nacional: 'Federación española', federacion_autonomica: 'Federación autonómica', club: 'Club o asociación', sad: 'SAD / mercantil', empresa_deportiva: 'Empresa deportiva', entidad_publica: 'Entidad pública', otro: 'Otra' };
 const corta = (s, n = 34) => (s.length > n ? s.slice(0, n - 1) + '…' : s);
 
 function pinta(y) {
   const A = D.agregados[y], T = A.total, C = A.concentracion, F = A.futbol_vs_resto;
+  $('#hero-num').textContent = M(T.importe);
+  $('#hero-sub').textContent = `en subvenciones a ${N(T.entidades)} entidades deportivas en ${y}`;
   $('#kpis').innerHTML = [
-    [M(T.importe), `concedidos a entidades deportivas en ${y}`],
     [N(T.entidades), 'entidades beneficiarias distintas'],
     [N(T.concesiones), `concesiones en ${N(T.convocatorias)} convocatorias`],
     [N(T.mediana_por_entidad ?? C.mediana_por_entidad) + ' €', 'mediana por entidad: la mitad cobra menos'],
@@ -163,19 +203,22 @@ function pinta(y) {
   $('#nota-kpis').textContent = `De los ${M(T.importe)}, ${M(gar)} (${N(100 * gar / T.importe, 1)} %) son garantías, préstamos y ventajas fiscales: la BDNS los publica como ayuda, pero no es dinero entregado. El resto, ${M(T.importe - gar)}, sí.`;
 
   const ad = A.por_administracion.filter((a) => a.tipo_admin !== 'O');
-  barras($('#g-admin'), ad, { etiqueta: (a) => a.nombre, valor: (a) => a.importe, fmt: (a) => `${M(a.importe)} · ${N(a.pct_importe, 1)} %` });
+  const CA = { C: 'var(--c-estado)', A: 'var(--c-ccaa)', L: 'var(--c-local)' };
+  apilada($('#g-admin'), ad, { valor: (a) => a.importe, etiqueta: (a) => `${a.nombre} ${N(a.pct_importe, 0)} %`, color: (a) => CA[a.tipo_admin] });
+  $('#ley-admin').innerHTML = ad.map((a) => `<span><i style="background:${CA[a.tipo_admin]}"></i>${a.nombre}: ${M(a.importe)} en ${N(a.n)} concesiones</span>`).join('');
   const est = ad.find((a) => a.tipo_admin === 'C'), loc = ad.find((a) => a.tipo_admin === 'L');
   $('#nota-admin').textContent = `Los ayuntamientos y diputaciones hacen ${N(loc.n)} concesiones, ${N(100 * loc.n / T.concesiones, 0)} % del total en número, pero ${N(loc.pct_importe, 1)} % del dinero: muchas ayudas pequeñas a clubes. El Estado hace ${N(est.n)} y pone el ${N(est.pct_importe, 1)} %: pocas ayudas grandes, casi todas del Consejo Superior de Deportes a federaciones.`;
 
   const tp = [...A.por_tipo_beneficiario].sort((a, b) => b.importe - a.importe);
-  barras($('#g-tipo'), tp, { etiqueta: (t) => TIPO[t.tipo], valor: (t) => t.importe, fmt: (t) => `${M(t.importe)} · ${N(t.entidades)} entidades`, l: 170 });
+  barras($('#g-tipo'), tp, { etiqueta: (t) => TIPO[t.tipo], valor: (t) => t.importe, fmt: (t) => `${M(t.importe)} · ${N(t.entidades)} entidades`, color: (t) => CT[t.tipo], l: 170 });
   const cl = tp.find((t) => t.tipo === 'club'), fn = tp.find((t) => t.tipo === 'federacion_nacional');
   $('#nota-tipo').textContent = `${N(cl.entidades)} clubes se reparten ${M(cl.importe)}: ${N(cl.importe / cl.entidades)} € de media. ${N(fn.entidades)} federaciones españolas se reparten ${M(fn.importe)}: ${N(fn.importe / fn.entidades)} € de media. Es la diferencia entre el deporte de base y el de alto nivel, y las dos cosas son deporte.`;
 
   const dp = D.deportes[y].slice(0, 16);
-  barras($('#g-dep'), dp, { etiqueta: (d) => corta(DEP[d.deporte] || d.deporte, 30), valor: (d) => d.importe, fmt: (d) => `${M(d.importe)} · ${N(d.pct_importe, 1)} %`, resaltar: (d) => d.deporte === 'sin_clasificar' });
+  const PAL = ['var(--t1)', 'var(--t3)', 'var(--t5)', 'var(--t4)', 'var(--t6)', 'var(--t2)'];
+  barras($('#g-dep'), dp, { etiqueta: (d) => corta(DEP[d.deporte] || d.deporte, 30), valor: (d) => d.importe, fmt: (d) => `${M(d.importe)} · ${N(d.pct_importe, 1)} %`, color: (d, i) => d.deporte === 'sin_clasificar' ? 'var(--t7)' : PAL[dp.filter((x) => x.deporte !== 'sin_clasificar').indexOf(d) % PAL.length] });
   const sc = D.deportes[y].find((d) => d.deporte === 'sin_clasificar');
-  $('#nota-dep').textContent = `La barra roja es honestidad: ${N(sc.pct_importe, 1)} % del importe va a entidades deportivas cuyo nombre no dice qué deporte practican («Club Deportivo Villanueva»). No se adivina. Entre las identificables, el orden es el de arriba.`;
+  $('#nota-dep').textContent = `La barra gris es honestidad: ${N(sc.pct_importe, 1)} % del importe va a entidades deportivas cuyo nombre no dice qué deporte practican («Club Deportivo Villanueva»). No se adivina. Entre las identificables, el orden es el de arriba.`;
 
   $('#kpis-futbol').innerHTML = [
     [N(F.futbol_total_pct, 1) + ' %', `del importe va a entidades con «fútbol» en el nombre (${M(F.futbol_total_todos_los_tipos)})`],
@@ -197,7 +240,7 @@ function pinta(y) {
   tabla($('#t-top'), [
     { k: 'pos', t: '#', r: 1, get: (t) => t.pos, v: (t) => t.pos },
     { k: 'nombre', t: 'Entidad', get: (t) => t.nombre, v: (t) => esc(t.nombre) },
-    { k: 'tipo', t: 'Tipo', get: (t) => TIPO[t.tipo] || t.tipo, v: (t) => TIPO[t.tipo] || t.tipo },
+    { k: 'tipo', t: 'Tipo', get: (t) => TIPO[t.tipo] || t.tipo, v: (t) => `<span class="chip" style="background:${CT[t.tipo] || 'var(--t7)'}">${TIPO[t.tipo] || t.tipo}</span>` },
     { k: 'deporte', t: 'Deporte', get: (t) => DEP[t.deporte] || t.deporte, v: (t) => t.deporte === 'sin_clasificar' ? '<span style="color:var(--ink-2)">—</span>' : corta(DEP[t.deporte] || t.deporte, 22) },
     { k: 'importe', t: 'Importe', r: 1, bar: 1, get: (t) => t.importe, v: (t) => N(t.importe) + ' €' },
     { k: 'n', t: 'Conces.', r: 1, get: (t) => t.n, v: (t) => N(t.n) },
@@ -207,7 +250,7 @@ function pinta(y) {
   const org = D.organos[y];
   tabla($('#t-org'), [
     { k: 'pos', t: '#', r: 1, get: (o) => o.pos, v: (o) => o.pos },
-    { k: 'org', t: 'Órgano', get: (o) => o.nivel3 || o.nivel2, v: (o) => `${esc(o.nivel3 || o.nivel2)}<span class="tag">${esc(o.nivel1 === 'ESTADO' ? 'Estado' : o.nivel1 === 'AUTONOMICA' ? o.nivel2 : (o.nivel2 || o.nivel1))}</span>` },
+    { k: 'org', t: 'Órgano', get: (o) => o.nivel3 || o.nivel2, v: (o) => `${esc(o.nivel3 || o.nivel2)}<span class="chip" style="background:${o.nivel1 === 'ESTADO' ? 'var(--c-estado)' : o.nivel1 === 'AUTONOMICA' ? 'var(--c-ccaa)' : 'var(--c-local)'};margin-left:6px">${esc(o.nivel1 === 'ESTADO' ? 'Estado' : o.nivel1 === 'AUTONOMICA' ? corta(o.nivel2, 22) : 'Local')}</span>` },
     { k: 'importe', t: 'Importe', r: 1, bar: 1, get: (o) => o.importe, v: (o) => M(o.importe) },
     { k: 'pct', t: '% del total', r: 1, get: (o) => o.pct_importe, v: (o) => N(o.pct_importe, 1) + ' %' },
     { k: 'n', t: 'Conces.', r: 1, get: (o) => o.n, v: (o) => N(o.n) },
