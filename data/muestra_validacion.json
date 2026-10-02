@@ -1,0 +1,929 @@
+{
+ "meta": {
+  "fuente": "BDNS – Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas (IGAE, Ministerio de Hacienda), vía descarga del episodio cci-09 «¿Quién cobra?»",
+  "url": "https://www.infosubvenciones.es/bdnstrans/api/concesiones/busqueda",
+  "periodo": "2024-2025 (año de concesión)",
+  "unidad": "EUR",
+  "descripcion": "Muestra fija (semilla 18) para medir a mano la precisión del clasificador: 50 positivos al azar y 50 negativos con palabras ambiguas (DEPORT*, CLUB, SPORT, ESPORT). 'veredicto' lo rellena una persona en VALIDACION.",
+  "metodo": "Beneficiario identificado como deportivo por el nombre (federaciones, clubes, SAD, patronatos, empresas deportivas) o, como señal secundaria, por convocatoria con sectores CNAE exclusivamente 93.1x.",
+  "limite": "Sólo entidades jurídicas; sólo subvenciones publicadas en BDNS (no contratos, ni cesiones de instalaciones, ni gasto directo). Clasificador por nombre con error medido en data/informe.md."
+ },
+ "resumen": {
+  "positivos_revisados": 50,
+  "positivos_correctos": 49,
+  "precision_pct": 98.0,
+  "negativos_ambiguos_revisados": 50,
+  "negativos_que_si_eran_deportivos": 11,
+  "falsos_negativos_entre_ambiguos_pct": 22.0,
+  "entidades_cuya_clasificacion_cambio_desde_el_muestreo": 0,
+  "poblacion": {
+   "positivos_por_nombre": 20815,
+   "negativos_ambiguos": 1950,
+   "negativos_ambiguos_importe": 59045908.39,
+   "positivos_por_nombre_importe": 1139117123.21
+  },
+  "nota": "Muestra fija de 50 positivos + 50 negativos ambiguos (random.Random(18)); veredicto humano en VALIDACION del script. Los importes de 'poblacion' suman 2024+2025."
+ },
+ "muestra": [
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G16739245",
+   "nombre": "CLUB XADREZ AS BURGAS",
+   "clasificado_ahora": true,
+   "tipo": "club",
+   "deporte": "ajedrez",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G10286086",
+   "nombre": "CLUB DEPORTIVO LOCAL DE CAZA LOGROS",
+   "clasificado_ahora": true,
+   "tipo": "club",
+   "deporte": "caza_pesca",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G59746230",
+   "nombre": "CLUB TENIS RIPOLLET",
+   "clasificado_ahora": true,
+   "tipo": "club",
+   "deporte": "tenis",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G41552118",
+   "nombre": "CLUB BADMINTON LA RINCONADA",
+   "clasificado_ahora": true,
+   "tipo": "club",
+   "deporte": "badminton",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G27206622",
+   "nombre": "SOCIEDADE DEPORTIVA DE CAZADORES NEGUEIRA DE MUÑIZ",
+   "clasificado_ahora": true,
+   "tipo": "club",
+   "deporte": "caza_pesca",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G19287101",
+   "nombre": "C.D. CICLISTA CICLO-ROOM EL CASAR",
+   "clasificado_ahora": true,
+   "tipo": "club",
+   "deporte": "ciclismo",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G70417548",
+   "nombre": "ESCOLA NAUTICA DEPORTIVA DE BOIRO",
+   "clasificado_ahora": true,
+   "tipo": "club",
+   "deporte": "vela_nautica",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "V57461568",
+   "nombre": "CLUB ESPORTIU BLAU",
+   "clasificado_ahora": true,
+   "tipo": "sad",
+   "deporte": "sin_clasificar",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G70681440",
+   "nombre": "CLUB PETANCA ALOVERA",
+   "clasificado_ahora": true,
+   "tipo": "club",
+   "deporte": "petanca_bolos",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G16885808",
+   "nombre": "CLUB GELIDA FEM GYM",
+   "clasificado_ahora": true,
+   "tipo": "club",
+   "deporte": "sin_clasificar",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G67227355",
+   "nombre": "ASSOCIACIO ESPORTIVA JUNIORS MASNOU",
+   "clasificado_ahora": true,
+   "tipo": "club",
+   "deporte": "sin_clasificar",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G36147080",
+   "nombre": "CLUB MARCON ATLETICO",
+   "clasificado_ahora": true,
+   "tipo": "club",
+   "deporte": "sin_clasificar",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G61538229",
+   "nombre": "CLUB ESPORTIU FUTBOL SALA SANT JOAN DE VILASSAR",
+   "clasificado_ahora": true,
+   "tipo": "club",
+   "deporte": "futbol",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G31912207",
+   "nombre": "CLUB DEPORTIVO MUTILBASKET",
+   "clasificado_ahora": true,
+   "tipo": "club",
+   "deporte": "sin_clasificar",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G19022573",
+   "nombre": "ASOC. DEPORTIVO CULTURAL DE ALARILLA",
+   "clasificado_ahora": true,
+   "tipo": "club",
+   "deporte": "sin_clasificar",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G30448427",
+   "nombre": "ASOC DEPORTIVA BUDOKAN DE ALCANTARILLA",
+   "clasificado_ahora": true,
+   "tipo": "club",
+   "deporte": "sin_clasificar",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G09757576",
+   "nombre": "ASOCIACION CULTURAL E DEPORTIVA ANDAINA",
+   "clasificado_ahora": true,
+   "tipo": "club",
+   "deporte": "sin_clasificar",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G39456173",
+   "nombre": "AD SOCIEDAD DEPORTIVA DE REMO CASTREÑA",
+   "clasificado_ahora": true,
+   "tipo": "club",
+   "deporte": "remo_piraguismo",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G76099365",
+   "nombre": "CLUB DEPORTIVO DE BOLAS JUAN BARRIOS",
+   "clasificado_ahora": true,
+   "tipo": "club",
+   "deporte": "sin_clasificar",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G15794589",
+   "nombre": "CLUB ESCOLAS DE FUTBOL \"LUIS CALVO SANZ\"",
+   "clasificado_ahora": true,
+   "tipo": "club",
+   "deporte": "futbol",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G26284281",
+   "nombre": "CLUB CICLISTA RADIKAL BIKE COMPANY",
+   "clasificado_ahora": true,
+   "tipo": "club",
+   "deporte": "ciclismo",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G15321060",
+   "nombre": "SOCIEDAD DEPORTIVA SAN LORENZO",
+   "clasificado_ahora": true,
+   "tipo": "club",
+   "deporte": "sin_clasificar",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G27041631",
+   "nombre": "SOC. DEPORTIVA OURAL",
+   "clasificado_ahora": true,
+   "tipo": "otro",
+   "deporte": "sin_clasificar",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G19417930",
+   "nombre": "UNIÓ CICLISTA LA GARRIGA UNIÓ CICLISTA LA GARRIGA",
+   "clasificado_ahora": true,
+   "tipo": "club",
+   "deporte": "ciclismo",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G46637989",
+   "nombre": "BASQUET CLUB MELIANA",
+   "clasificado_ahora": true,
+   "tipo": "club",
+   "deporte": "baloncesto",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G93183846",
+   "nombre": "CLUB DEPORTIVO SOHO MALAGA",
+   "clasificado_ahora": true,
+   "tipo": "club",
+   "deporte": "sin_clasificar",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G72964026",
+   "nombre": "C.D. CICLISTA CARAQUIZ-UCEDA",
+   "clasificado_ahora": true,
+   "tipo": "club",
+   "deporte": "ciclismo",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G19630649",
+   "nombre": "CLUB DEPORTIVO CGC RIDERS",
+   "clasificado_ahora": true,
+   "tipo": "club",
+   "deporte": "sin_clasificar",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G70636154",
+   "nombre": "EME AUTOMOBILISMO KIROL KLUBA",
+   "clasificado_ahora": true,
+   "tipo": "club",
+   "deporte": "sin_clasificar",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G22592729",
+   "nombre": "CLUB RITMICA XOVE",
+   "clasificado_ahora": true,
+   "tipo": "club",
+   "deporte": "gimnasia",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G36337533",
+   "nombre": "CLUB DE FUTBOL LAMELA",
+   "clasificado_ahora": true,
+   "tipo": "club",
+   "deporte": "futbol",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G32024812",
+   "nombre": "ASOC VECINAL CULTURAL DEPORTIVA DE BOVED",
+   "clasificado_ahora": true,
+   "tipo": "club",
+   "deporte": "sin_clasificar",
+   "veredicto_es_deportiva": false
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "B04562302",
+   "nombre": "TOYO AVENTURA ACTIVIDADES DEPORTIVAS, SL",
+   "clasificado_ahora": true,
+   "tipo": "empresa_deportiva",
+   "deporte": "sin_clasificar",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G43091560",
+   "nombre": "POLIESPORTIU EL GARRIGO",
+   "clasificado_ahora": true,
+   "tipo": "otro",
+   "deporte": "sin_clasificar",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G54309406",
+   "nombre": "CLUB DEPORTIVO TRIASPE",
+   "clasificado_ahora": true,
+   "tipo": "club",
+   "deporte": "sin_clasificar",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G24283616",
+   "nombre": "CLUB DEPORTIVO CUATROVIENTOS",
+   "clasificado_ahora": true,
+   "tipo": "club",
+   "deporte": "sin_clasificar",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G54399084",
+   "nombre": "CLUB VOLEIBOL FINESTRAT",
+   "clasificado_ahora": true,
+   "tipo": "club",
+   "deporte": "voleibol",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G79345542",
+   "nombre": "CLUB DEPORTIVO UNION DE ARAVACA . .",
+   "clasificado_ahora": true,
+   "tipo": "club",
+   "deporte": "sin_clasificar",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G43433655",
+   "nombre": "CAMBRILS CLUB NATACIO",
+   "clasificado_ahora": true,
+   "tipo": "club",
+   "deporte": "natacion",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G96313622",
+   "nombre": "CLUB DEPORTIVO ORRIOLS MARNI",
+   "clasificado_ahora": true,
+   "tipo": "club",
+   "deporte": "sin_clasificar",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G92289339",
+   "nombre": "CLUB BADMINTON ALHAURIN DE LA TORRE",
+   "clasificado_ahora": true,
+   "tipo": "club",
+   "deporte": "badminton",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G76305952",
+   "nombre": "CLUB COLOMBOFILO BIOSFERA",
+   "clasificado_ahora": true,
+   "tipo": "club",
+   "deporte": "otros_deportes",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G33346016",
+   "nombre": "CLUB DEPORTIVO TINEO",
+   "clasificado_ahora": true,
+   "tipo": "club",
+   "deporte": "sin_clasificar",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G32478034",
+   "nombre": "ESCOLAS DEPORTIVAS NOGUEIRA DE RAMUIN",
+   "clasificado_ahora": true,
+   "tipo": "otro",
+   "deporte": "sin_clasificar",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G97797021",
+   "nombre": "ASSOCIACIO AMICS DEL TENIS D'ALGEMESI",
+   "clasificado_ahora": true,
+   "tipo": "club",
+   "deporte": "tenis",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G36663664",
+   "nombre": "FEDERACIÓN GALEGA DE MOTONÁUTICA",
+   "clasificado_ahora": true,
+   "tipo": "federacion_autonomica",
+   "deporte": "vela_nautica",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G83212472",
+   "nombre": "CLUB TENIS DE MESA ALCALA VILLALBILLA",
+   "clasificado_ahora": true,
+   "tipo": "club",
+   "deporte": "tenis_de_mesa",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G09248238",
+   "nombre": "ASOCIACION CULTURAL DEPORTIVA SAN JUAN BAUTISTA",
+   "clasificado_ahora": true,
+   "tipo": "club",
+   "deporte": "sin_clasificar",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G35232974",
+   "nombre": "CLUB DE LUCHA CANARIA MANINIDRA",
+   "clasificado_ahora": true,
+   "tipo": "club",
+   "deporte": "halterofilia_lucha",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "positivo",
+   "nif": "G66859349",
+   "nombre": "VILASSAR DE MAR BIKERS CLUB CICLISTA 2016",
+   "clasificado_ahora": true,
+   "tipo": "club",
+   "deporte": "ciclismo",
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "G39201231",
+   "nombre": "CLUB DE LA TERCERA EDAD DE MIENGO",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": false
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "G98820681",
+   "nombre": "OFFICIAL FAN CLUB JORGE NAVARRO",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": false
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "G33734674",
+   "nombre": "CLUB VICTORIA DE PERLORA - CARREÑO",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": false
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "G01129329",
+   "nombre": "CLUB MONTE ALEGRE",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": false
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "G33216607",
+   "nombre": "CLUB POPULAR DE CULTURA LLARANES",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": false
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "G53339636",
+   "nombre": "CLUB DE CONVIVENCIA DE PENSIONISTES Y JUBILATS DE ORXETA",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": false
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "G70257670",
+   "nombre": "LA VIEJA ESCUELA BOARDING CLUB",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "G48262398",
+   "nombre": "BERRIO-OTXOA ASTII BILTOKIA (CLUB DE TIEMPO LIBRE)",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": false
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "G70223169",
+   "nombre": "CLUB ACORDES PONTEDEUME",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": false
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "G02205045",
+   "nombre": "ASOC CLUB DE JUBILADOS CANAL DE MARIA CRISTINA DE",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": false
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "G04038790",
+   "nombre": "CLUB TERCERA EDAD CORTIJOS DE MARIN",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": false
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "G06858799",
+   "nombre": "CLUB PONTUS VETERIS",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": false
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "G49017312",
+   "nombre": "CLUB JUB. VILLANUEVA DEL CAMPO",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": false
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "G53561452",
+   "nombre": "CLUB",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": false
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "G70761853",
+   "nombre": "CLUB XUVENTUDE LARACHA",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": false
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "G30631485",
+   "nombre": "CLUB DE LA TERCERA EDAD DE LOS DOLORES",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": false
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "B96727433",
+   "nombre": "ARTS SPORTS CONSULTING SL",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": false
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "G27804970",
+   "nombre": "CLUB PEÑASCO",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": false
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "G35425602",
+   "nombre": "CLUB TAMARAN GRAN CANARIA",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": false
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "G32004244",
+   "nombre": "CLUB SOCIAL SANTO DOMINGO",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": false
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "G39801345",
+   "nombre": "ASOC UNIFICADA PEQUEÑOS ACCIONISTAS DEL REAL RACING CLUB",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": false
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "B71029367",
+   "nombre": "DEPORTE Y DISTRIBUCIÓN TEXTIL NAVARRA S.L.U.",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": false
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "G96831276",
+   "nombre": "ALJAZZIRA JAZZ CLUB",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": false
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "G56681141",
+   "nombre": "CLUB DEPOR ELEMENT CONTACT WEIGHTLIFTING",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "G06470777",
+   "nombre": "ASOC CULTURAL CINE CLUB FORUM DE ME",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": false
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "G43084474",
+   "nombre": "PATI CLUB VILA-SECA",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "G12253159",
+   "nombre": "CLUB CAZADORES SAGANTA DE ESPADILLA",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": false
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "G36524171",
+   "nombre": "CLUB DE PESCA MARITIMA O ISCO",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": false
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "G75864942",
+   "nombre": "ASSOCIACIO CULTURAL CINE CLUB TERRA ALTA BOT",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": false
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "G17316399",
+   "nombre": "ROTARY CLUB GIRONA",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": false
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "G70132170",
+   "nombre": "CLUB AGUAMARINA SINCRO",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "G72499304",
+   "nombre": "CLUB AUGA DRAGON BOAT BCS A CORUÑA",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "G73800120",
+   "nombre": "CLUB MONTAÑERO DE YECLA",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "G73158479",
+   "nombre": "CLUB PENSIONISTAS SAN JOSE",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": false
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "G49146426",
+   "nombre": "CLUB GALGUERO LA MAGDALENA",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": false
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "G36782886",
+   "nombre": "CLUB RACING VILARIÑO",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "G31348287",
+   "nombre": "CLUB JUBILADOS Y PENSIONISTAS VIRGEN DE ALMUZA",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": false
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "B60256773",
+   "nombre": "INFO 7 CLUB SLU",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": false
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "G32489890",
+   "nombre": "CLUB ARQUEIROS DO SIL 2002",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "G01212976",
+   "nombre": "CLUB ADURTZA \" JAI-ALAI\"",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "G31681752",
+   "nombre": "CLUB DE JUBILADOS SAN MARTIN",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": false
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "G01740893",
+   "nombre": "PINATARIUS WRESTLING CLUB",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "G32431835",
+   "nombre": "CLUB XADREZ CEIP PEREIRO DE AGUIAR",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": true
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "B56509102",
+   "nombre": "CLUB TALENTO SIGLO XXI",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": false
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "G12207171",
+   "nombre": "CLUB DE CAZADORES EL MAESTRAZGO DE MORELLA",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": false
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "G49024532",
+   "nombre": "CLUB JUB. MORALES REY",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": false
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "B66191404",
+   "nombre": "LA SANTA SANDWICH CLUB,SL",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": false
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "G36757276",
+   "nombre": "CLUB O PANASCO",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": false
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "G19103746",
+   "nombre": "CLUB DE TERCERA EDAD DE MASEGOSO DE TAJUÑA",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": false
+  },
+  {
+   "grupo_al_muestrear": "negativo_ambiguo",
+   "nif": "G06711436",
+   "nombre": "ASOCIACION CLUB CANARICULTORES DEL OESTE",
+   "clasificado_ahora": false,
+   "tipo": null,
+   "deporte": null,
+   "veredicto_es_deportiva": false
+  }
+ ]
+}

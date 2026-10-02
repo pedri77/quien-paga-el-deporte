@@ -1,0 +1,3415 @@
+{
+ "meta": {
+  "fuente": "BDNS – Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas (IGAE, Ministerio de Hacienda), vía descarga del episodio cci-09 «¿Quién cobra?»",
+  "url": "https://www.infosubvenciones.es/bdnstrans/api/concesiones/busqueda",
+  "periodo": "2024-2025 (año de concesión)",
+  "unidad": "EUR",
+  "descripcion": "Top 100 beneficiarios deportivos por año (sólo entidades jurídicas; la BDNS anonimiza a las personas físicas y aquí ni siquiera se cargan)",
+  "metodo": "Beneficiario identificado como deportivo por el nombre (federaciones, clubes, SAD, patronatos, empresas deportivas) o, como señal secundaria, por convocatoria con sectores CNAE exclusivamente 93.1x.",
+  "limite": "Sólo entidades jurídicas; sólo subvenciones publicadas en BDNS (no contratos, ni cesiones de instalaciones, ni gasto directo). Clasificador por nombre con error medido en data/informe.md."
+ },
+ "2024": [
+  {
+   "pos": 1,
+   "nif": "A38615191",
+   "nombre": "GEST. INS. DEPORTE, CULTURA Y OCIO SA U.",
+   "tipo": "empresa_deportiva",
+   "deporte": "sin_clasificar",
+   "importe": 8955976.19,
+   "n": 10,
+   "convocatorias": 10,
+   "organo_principal": {
+    "nivel1": "LOCAL",
+    "nivel2": "CABILDO INSULAR DE TENERIFE",
+    "nivel3": "CABILDO INSULAR DE TENERIFE",
+    "importe": 8012014.11,
+    "pct_del_beneficiario": 89.46
+   }
+  },
+  {
+   "pos": 2,
+   "nif": "A26362145",
+   "nombre": "LOGROÑO DEPORTE,S.A.",
+   "tipo": "empresa_deportiva",
+   "deporte": "sin_clasificar",
+   "importe": 7400000.0,
+   "n": 2,
+   "convocatorias": 2,
+   "organo_principal": {
+    "nivel1": "LOCAL",
+    "nivel2": "LOGROÑO",
+    "nivel3": "AYUNTAMIENTO DE LOGROÑO",
+    "importe": 7400000.0,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 3,
+   "nif": "G11902475",
+   "nombre": "AGRUPACION DEPORTIVA CEUTA FUTBOL CLUB",
+   "tipo": "club",
+   "deporte": "futbol",
+   "importe": 5338460.0,
+   "n": 3,
+   "convocatorias": 2,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CIUDAD AUTÓNOMA DE CEUTA",
+    "nivel3": "INSTITUTO CEUTÍ DE DEPORTES",
+    "importe": 4213460.0,
+    "pct_del_beneficiario": 78.93
+   }
+  },
+  {
+   "pos": 4,
+   "nif": "Q2878036I",
+   "nombre": "FED. ESP. DE RUGBY",
+   "tipo": "federacion_nacional",
+   "deporte": "rugby",
+   "importe": 4244146.93,
+   "n": 13,
+   "convocatorias": 11,
+   "organo_principal": {
+    "nivel1": "LOCAL",
+    "nivel2": "MADRID",
+    "nivel3": "ÁREA DELEGADA DE DEPORTE",
+    "importe": 3000000.0,
+    "pct_del_beneficiario": 70.69
+   }
+  },
+  {
+   "pos": 5,
+   "nif": "A35310598",
+   "nombre": "CLUB DE BALONCESTO GRAN CANARIA CLARET SAD",
+   "tipo": "sad",
+   "deporte": "baloncesto",
+   "importe": 4065000.0,
+   "n": 3,
+   "convocatorias": 3,
+   "organo_principal": {
+    "nivel1": "LOCAL",
+    "nivel2": "CABILDO INSULAR DE GRAN CANARIA",
+    "nivel3": "INSTITUTO INS. DE DEPORTES DE GRAN CANARIA",
+    "importe": 4000000.0,
+    "pct_del_beneficiario": 98.4
+   }
+  },
+  {
+   "pos": 6,
+   "nif": "Q2878029D",
+   "nombre": "FED. ESP. DE NATACION",
+   "tipo": "federacion_nacional",
+   "deporte": "natacion",
+   "importe": 3982147.31,
+   "n": 15,
+   "convocatorias": 10,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 3897436.29,
+    "pct_del_beneficiario": 97.87
+   }
+  },
+  {
+   "pos": 7,
+   "nif": "Q2878003I",
+   "nombre": "REAL FEDERACION ESPAÑOLA DE ATLETISMO",
+   "tipo": "federacion_nacional",
+   "deporte": "atletismo",
+   "importe": 3389203.32,
+   "n": 14,
+   "convocatorias": 11,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 2825906.05,
+    "pct_del_beneficiario": 83.38
+   }
+  },
+  {
+   "pos": 8,
+   "nif": "Q2878006B",
+   "nombre": "FEDERACION ESPAÑOLA DE BALONMANO",
+   "tipo": "federacion_nacional",
+   "deporte": "balonmano",
+   "importe": 3233108.21,
+   "n": 14,
+   "convocatorias": 12,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 2576812.39,
+    "pct_del_beneficiario": 79.7
+   }
+  },
+  {
+   "pos": 9,
+   "nif": "G46374351",
+   "nombre": "FEDERACIO DE PILOTA VALENCIANA",
+   "tipo": "federacion_autonomica",
+   "deporte": "pelota",
+   "importe": 3120344.5,
+   "n": 16,
+   "convocatorias": 15,
+   "organo_principal": {
+    "nivel1": "LOCAL",
+    "nivel2": "DIPUTACIÓN PROV. DE VALENCIA",
+    "nivel3": "DIPUTACIÓN PROVINCIAL DE VALENCIA",
+    "importe": 1285000.0,
+    "pct_del_beneficiario": 41.18
+   }
+  },
+  {
+   "pos": 10,
+   "nif": "Q2878022I",
+   "nombre": "FED. ESP. DE HOCKEY",
+   "tipo": "federacion_nacional",
+   "deporte": "hockey",
+   "importe": 2898723.75,
+   "n": 10,
+   "convocatorias": 8,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 2763902.83,
+    "pct_del_beneficiario": 95.35
+   }
+  },
+  {
+   "pos": 11,
+   "nif": "G29903416",
+   "nombre": "U D MELILLA",
+   "tipo": "club",
+   "deporte": "futbol",
+   "importe": 2890781.04,
+   "n": 3,
+   "convocatorias": 3,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CIUDAD AUTÓNOMA DE MELILLA",
+    "nivel3": "CONSEJERÍA DE EDUCACIÓN, JUVENTUD Y DEPORTES",
+    "importe": 2890781.04,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 12,
+   "nif": "Q2878005D",
+   "nombre": "FEDERACION ESP. DE BALONCESTO",
+   "tipo": "federacion_nacional",
+   "deporte": "baloncesto",
+   "importe": 2825222.98,
+   "n": 12,
+   "convocatorias": 10,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 2541022.98,
+    "pct_del_beneficiario": 89.94
+   }
+  },
+  {
+   "pos": 13,
+   "nif": "A96793690",
+   "nombre": "CIRCUITO DEL MOTOR Y PROM DEPORTIVA SA",
+   "tipo": "empresa_deportiva",
+   "deporte": "motor",
+   "importe": 2702407.5,
+   "n": 4,
+   "convocatorias": 3,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "COMUNITAT VALENCIANA",
+    "nivel3": "SECRETARÍA AUTONÓMICA DE RELACIONES INSTITUCIONALES Y TRANSPARENCIA",
+    "importe": 2601659.79,
+    "pct_del_beneficiario": 96.27
+   }
+  },
+  {
+   "pos": 14,
+   "nif": "Q2878033F",
+   "nombre": "FED. ESP. DE PIRAGUISMO",
+   "tipo": "federacion_nacional",
+   "deporte": "remo_piraguismo",
+   "importe": 2670246.77,
+   "n": 8,
+   "convocatorias": 6,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 2670246.77,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 15,
+   "nif": "Q0878004A",
+   "nombre": "FEDERACION ESP. DE TRIATLON",
+   "tipo": "federacion_nacional",
+   "deporte": "triatlon",
+   "importe": 2641331.57,
+   "n": 20,
+   "convocatorias": 18,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 1213379.82,
+    "pct_del_beneficiario": 45.94
+   }
+  },
+  {
+   "pos": 16,
+   "nif": "V50120211",
+   "nombre": "FEDERACION ARAGONESA DE MONTAÑISMO",
+   "tipo": "federacion_autonomica",
+   "deporte": "montana_escalada",
+   "importe": 2517774.86,
+   "n": 14,
+   "convocatorias": 13,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "ARAGÓN",
+    "nivel3": "DIRECCIÓN GENERAL DE MEDIO NATURAL",
+    "importe": 799705.18,
+    "pct_del_beneficiario": 31.76
+   }
+  },
+  {
+   "pos": 17,
+   "nif": "G76772821",
+   "nombre": "FUNDACION CANARIA CLUB DEPORTIVO TE",
+   "tipo": "club",
+   "deporte": "sin_clasificar",
+   "importe": 2126325.19,
+   "n": 4,
+   "convocatorias": 4,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CANARIAS",
+    "nivel3": "CONSEJERÍA DE EDUCACIÓN, FORMACIÓN PROFESIONAL, ACTIVIDAD FÍSICA Y DEPORTES",
+    "importe": 1050000.0,
+    "pct_del_beneficiario": 49.38
+   }
+  },
+  {
+   "pos": 18,
+   "nif": "B25309576",
+   "nombre": "GIMNAS LLEIDA S.L.",
+   "tipo": "empresa_deportiva",
+   "deporte": "sin_clasificar",
+   "importe": 2100000.0,
+   "n": 1,
+   "convocatorias": 1,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE ECONOMÍA, COMERCIO Y EMPRESA",
+    "nivel3": "INSTITUTO DE CRÉDITO OFICIAL",
+    "importe": 2100000.0,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 19,
+   "nif": "G35698513",
+   "nombre": "FUNDACION CANARIA \"UNION DEPORTIVAALMAS\"",
+   "tipo": "club",
+   "deporte": "sin_clasificar",
+   "importe": 2050000.0,
+   "n": 2,
+   "convocatorias": 2,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CANARIAS",
+    "nivel3": "CONSEJERÍA DE EDUCACIÓN, FORMACIÓN PROFESIONAL, ACTIVIDAD FÍSICA Y DEPORTES",
+    "importe": 1050000.0,
+    "pct_del_beneficiario": 51.22
+   }
+  },
+  {
+   "pos": 20,
+   "nif": "Q2878012J",
+   "nombre": "REAL FEDERACION ESPAÑOLA DE CICLISMO",
+   "tipo": "federacion_nacional",
+   "deporte": "ciclismo",
+   "importe": 1932655.48,
+   "n": 7,
+   "convocatorias": 5,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 1932655.48,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 21,
+   "nif": "G51006476",
+   "nombre": "FEDERACION FUTBOL DE CEUTA",
+   "tipo": "federacion_autonomica",
+   "deporte": "futbol",
+   "importe": 1911406.69,
+   "n": 2,
+   "convocatorias": 2,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CIUDAD AUTÓNOMA DE CEUTA",
+    "nivel3": "INSTITUTO CEUTÍ DE DEPORTES",
+    "importe": 1835629.21,
+    "pct_del_beneficiario": 96.04
+   }
+  },
+  {
+   "pos": 22,
+   "nif": "Q2878015C",
+   "nombre": "FED. ESP. DE DEPORTES DE INVIERNO",
+   "tipo": "federacion_nacional",
+   "deporte": "esqui_invierno",
+   "importe": 1868917.59,
+   "n": 6,
+   "convocatorias": 4,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 1868917.59,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 23,
+   "nif": "Q2878043E",
+   "nombre": "FEDERACION ESPAÑOLA DE VELA",
+   "tipo": "federacion_nacional",
+   "deporte": "vela_nautica",
+   "importe": 1832477.21,
+   "n": 6,
+   "convocatorias": 4,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 1832477.21,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 24,
+   "nif": "A83498089",
+   "nombre": "U1ST SPORTS S.A.",
+   "tipo": "empresa_deportiva",
+   "deporte": "sin_clasificar",
+   "importe": 1790000.0,
+   "n": 3,
+   "convocatorias": 2,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE ECONOMÍA, COMERCIO Y EMPRESA",
+    "nivel3": "INSTITUTO DE CRÉDITO OFICIAL",
+    "importe": 1440000.0,
+    "pct_del_beneficiario": 80.45
+   }
+  },
+  {
+   "pos": 25,
+   "nif": "Q2878035A",
+   "nombre": "FED. ESP. DE REMO",
+   "tipo": "federacion_nacional",
+   "deporte": "remo_piraguismo",
+   "importe": 1670871.83,
+   "n": 5,
+   "convocatorias": 4,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 1670871.83,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 26,
+   "nif": "G35390947",
+   "nombre": "FEDERACION CANARIA DE FUTBOL",
+   "tipo": "federacion_autonomica",
+   "deporte": "futbol",
+   "importe": 1640182.0,
+   "n": 2,
+   "convocatorias": 2,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CANARIAS",
+    "nivel3": "CONSEJERÍA DE EDUCACIÓN, FORMACIÓN PROFESIONAL, ACTIVIDAD FÍSICA Y DEPORTES",
+    "importe": 1640182.0,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 27,
+   "nif": "Q2878026J",
+   "nombre": "FED. ESP. DE DEPORTES DE MONTAÑA Y ESCALADA",
+   "tipo": "federacion_nacional",
+   "deporte": "montana_escalada",
+   "importe": 1628155.83,
+   "n": 7,
+   "convocatorias": 6,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 1598155.83,
+    "pct_del_beneficiario": 98.16
+   }
+  },
+  {
+   "pos": 28,
+   "nif": "Q0878003C",
+   "nombre": "REAL FEDERACION ESPAÑOLA DE TENIS  ESPAÑA ESPAÑA",
+   "tipo": "federacion_nacional",
+   "deporte": "tenis",
+   "importe": 1613611.71,
+   "n": 5,
+   "convocatorias": 4,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 1613611.71,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 29,
+   "nif": "Q5856227C",
+   "nombre": "FEDERACIO CATALANA DE VELA",
+   "tipo": "federacion_autonomica",
+   "deporte": "vela_nautica",
+   "importe": 1507713.19,
+   "n": 8,
+   "convocatorias": 7,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CATALUÑA",
+    "nivel3": "CONSELL CATALÀ DE L'ESPORT",
+    "importe": 961946.0,
+    "pct_del_beneficiario": 63.8
+   }
+  },
+  {
+   "pos": 30,
+   "nif": "G26363267",
+   "nombre": "FUNDACION RIOJA DEPORTE,",
+   "tipo": "otro",
+   "deporte": "sin_clasificar",
+   "importe": 1450000.0,
+   "n": 1,
+   "convocatorias": 1,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "LA RIOJA",
+    "nivel3": "CONSEJERÍA DE CULTURA, TURISMO, DEPORTE Y JUVENTUD",
+    "importe": 1450000.0,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 31,
+   "nif": "Q2878021A",
+   "nombre": "FED. ESP. DE HIPICA",
+   "tipo": "federacion_nacional",
+   "deporte": "hipica",
+   "importe": 1316644.81,
+   "n": 8,
+   "convocatorias": 6,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 1150644.81,
+    "pct_del_beneficiario": 87.39
+   }
+  },
+  {
+   "pos": 32,
+   "nif": "G38318069",
+   "nombre": "FEDERACION CANARIA DE BALONCESTO",
+   "tipo": "federacion_autonomica",
+   "deporte": "baloncesto",
+   "importe": 1291309.36,
+   "n": 6,
+   "convocatorias": 6,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CANARIAS",
+    "nivel3": "CONSEJERÍA DE EDUCACIÓN, FORMACIÓN PROFESIONAL, ACTIVIDAD FÍSICA Y DEPORTES",
+    "importe": 1276309.36,
+    "pct_del_beneficiario": 98.84
+   }
+  },
+  {
+   "pos": 33,
+   "nif": "G52009750",
+   "nombre": "CLUB VOLEIBOL MELILLA",
+   "tipo": "club",
+   "deporte": "voleibol",
+   "importe": 1288540.66,
+   "n": 12,
+   "convocatorias": 4,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CIUDAD AUTÓNOMA DE MELILLA",
+    "nivel3": "CONSEJERÍA DE EDUCACIÓN, JUVENTUD Y DEPORTES",
+    "importe": 1288540.66,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 34,
+   "nif": "Q2878014F",
+   "nombre": "FEDERACIÓN ESPAÑOLA DE ESGRIMA",
+   "tipo": "federacion_nacional",
+   "deporte": "esgrima",
+   "importe": 1253980.19,
+   "n": 12,
+   "convocatorias": 7,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 1019461.65,
+    "pct_del_beneficiario": 81.3
+   }
+  },
+  {
+   "pos": 35,
+   "nif": "G78025913",
+   "nombre": "FEDERACIÓN ESPAÑOLA DE BADMINTON",
+   "tipo": "federacion_nacional",
+   "deporte": "badminton",
+   "importe": 1252048.79,
+   "n": 8,
+   "convocatorias": 7,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 722048.79,
+    "pct_del_beneficiario": 57.67
+   }
+  },
+  {
+   "pos": 36,
+   "nif": "A22145601",
+   "nombre": "BALONCESTO FUENLABRADA S.A.D.",
+   "tipo": "sad",
+   "deporte": "baloncesto",
+   "importe": 1250000.0,
+   "n": 1,
+   "convocatorias": 1,
+   "organo_principal": {
+    "nivel1": "LOCAL",
+    "nivel2": "FUENLABRADA",
+    "nivel3": "O.A PATRONATO MUNICIPAL DE DEPORTES",
+    "importe": 1250000.0,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 37,
+   "nif": "Q2878018G",
+   "nombre": "FED. ESP. DE GIMNASIA",
+   "tipo": "federacion_nacional",
+   "deporte": "gimnasia",
+   "importe": 1220080.77,
+   "n": 7,
+   "convocatorias": 6,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 1210080.77,
+    "pct_del_beneficiario": 99.18
+   }
+  },
+  {
+   "pos": 38,
+   "nif": "G35313790",
+   "nombre": "FEDERACION CANARIA DE VOLEIBOL",
+   "tipo": "federacion_autonomica",
+   "deporte": "voleibol",
+   "importe": 1213902.14,
+   "n": 10,
+   "convocatorias": 10,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CANARIAS",
+    "nivel3": "CONSEJERÍA DE EDUCACIÓN, FORMACIÓN PROFESIONAL, ACTIVIDAD FÍSICA Y DEPORTES",
+    "importe": 1178342.14,
+    "pct_del_beneficiario": 97.07
+   }
+  },
+  {
+   "pos": 39,
+   "nif": "Q2878017I",
+   "nombre": "REAL FEDERACION ESPAÑOLA DE FUTBOL",
+   "tipo": "federacion_nacional",
+   "deporte": "futbol",
+   "importe": 1177025.0,
+   "n": 5,
+   "convocatorias": 5,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 937025.0,
+    "pct_del_beneficiario": 79.61
+   }
+  },
+  {
+   "pos": 40,
+   "nif": "B56358708",
+   "nombre": "INACUA CENTROS DEPORTIVOS SL",
+   "tipo": "empresa_deportiva",
+   "deporte": "sin_clasificar",
+   "importe": 1172860.54,
+   "n": 1,
+   "convocatorias": 1,
+   "organo_principal": {
+    "nivel1": "LOCAL",
+    "nivel2": "MURCIA",
+    "nivel3": "AYUNTAMIENTO DE MURCIA",
+    "importe": 1172860.54,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 41,
+   "nif": "G84574987",
+   "nombre": "FEDERACION ESPAÑOLA DE DEPORTES DE HIELO",
+   "tipo": "federacion_nacional",
+   "deporte": "esqui_invierno",
+   "importe": 1163305.38,
+   "n": 6,
+   "convocatorias": 4,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 1163305.38,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 42,
+   "nif": "Q2878025B",
+   "nombre": "FEDERACIÓN ESPAÑOLA DE DEPORTES DE PERSONAS CON DISCAPACIDAD FÍSICA",
+   "tipo": "federacion_nacional",
+   "deporte": "deporte_adaptado",
+   "importe": 1146883.79,
+   "n": 8,
+   "convocatorias": 6,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 934033.79,
+    "pct_del_beneficiario": 81.44
+   }
+  },
+  {
+   "pos": 43,
+   "nif": "Q0878007D",
+   "nombre": "FED. ESP. DE TAEKWONDO",
+   "tipo": "federacion_nacional",
+   "deporte": "artes_marciales",
+   "importe": 1145614.37,
+   "n": 8,
+   "convocatorias": 6,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 1085614.37,
+    "pct_del_beneficiario": 94.76
+   }
+  },
+  {
+   "pos": 44,
+   "nif": "G29954989",
+   "nombre": "CLUB MELILLA BALONCESTO",
+   "tipo": "club",
+   "deporte": "baloncesto",
+   "importe": 1120902.2,
+   "n": 4,
+   "convocatorias": 2,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CIUDAD AUTÓNOMA DE MELILLA",
+    "nivel3": "CONSEJERÍA DE EDUCACIÓN, JUVENTUD Y DEPORTES",
+    "importe": 1120902.2,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 45,
+   "nif": "Q2878010D",
+   "nombre": "FEDERACIÓN ESPAÑOLA DE BOXEO",
+   "tipo": "federacion_nacional",
+   "deporte": "boxeo",
+   "importe": 1095750.0,
+   "n": 13,
+   "convocatorias": 11,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 915000.0,
+    "pct_del_beneficiario": 83.5
+   }
+  },
+  {
+   "pos": 46,
+   "nif": "G06627335",
+   "nombre": "FEDERACION EXTREMEÑA DE FUTBOL",
+   "tipo": "federacion_autonomica",
+   "deporte": "futbol",
+   "importe": 1069900.0,
+   "n": 5,
+   "convocatorias": 5,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "EXTREMADURA",
+    "nivel3": "DIRECCIÓN GENERAL DE DEPORTES",
+    "importe": 984900.0,
+    "pct_del_beneficiario": 92.06
+   }
+  },
+  {
+   "pos": 47,
+   "nif": "A50913680",
+   "nombre": "BASKET ZARAGOZA 2002 SAD",
+   "tipo": "sad",
+   "deporte": "baloncesto",
+   "importe": 1064262.12,
+   "n": 3,
+   "convocatorias": 3,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "ARAGÓN",
+    "nivel3": "D. GRAL. DE DEPORTE",
+    "importe": 426762.12,
+    "pct_del_beneficiario": 40.1
+   }
+  },
+  {
+   "pos": 48,
+   "nif": "G65123143",
+   "nombre": "FEDERACIÓ CATALANA DE NATACIÓ",
+   "tipo": "federacion_autonomica",
+   "deporte": "natacion",
+   "importe": 1043626.2,
+   "n": 7,
+   "convocatorias": 7,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CATALUÑA",
+    "nivel3": "CONSELL CATALÀ DE L'ESPORT",
+    "importe": 981626.2,
+    "pct_del_beneficiario": 94.06
+   }
+  },
+  {
+   "pos": 49,
+   "nif": "Q2878023G",
+   "nombre": "FED. ESP. DE JUDO Y DEPORTES ASOCIADOS",
+   "tipo": "federacion_nacional",
+   "deporte": "artes_marciales",
+   "importe": 1007714.71,
+   "n": 9,
+   "convocatorias": 7,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 982107.56,
+    "pct_del_beneficiario": 97.46
+   }
+  },
+  {
+   "pos": 50,
+   "nif": "Q2878038E",
+   "nombre": "FED. ESP. DE TENIS DE MESA",
+   "tipo": "federacion_nacional",
+   "deporte": "tenis_de_mesa",
+   "importe": 993652.82,
+   "n": 11,
+   "convocatorias": 10,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 921236.22,
+    "pct_del_beneficiario": 92.71
+   }
+  },
+  {
+   "pos": 51,
+   "nif": "G58155813",
+   "nombre": "UNIO FED ESPORTIVES CATALANES",
+   "tipo": "federacion_autonomica",
+   "deporte": "sin_clasificar",
+   "importe": 980882.99,
+   "n": 4,
+   "convocatorias": 4,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CATALUÑA",
+    "nivel3": "CONSELL CATALÀ DE L'ESPORT",
+    "importe": 921446.99,
+    "pct_del_beneficiario": 93.94
+   }
+  },
+  {
+   "pos": 52,
+   "nif": "G08665432",
+   "nombre": "FEDERACIO CATALANA DE BASQUETBOL",
+   "tipo": "federacion_autonomica",
+   "deporte": "baloncesto",
+   "importe": 971861.75,
+   "n": 8,
+   "convocatorias": 7,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CATALUÑA",
+    "nivel3": "CONSELL CATALÀ DE L'ESPORT",
+    "importe": 856850.0,
+    "pct_del_beneficiario": 88.17
+   }
+  },
+  {
+   "pos": 53,
+   "nif": "G38048161",
+   "nombre": "FEDERACIÓN DE LUCHA CANARIA",
+   "tipo": "federacion_autonomica",
+   "deporte": "halterofilia_lucha",
+   "importe": 950000.0,
+   "n": 3,
+   "convocatorias": 3,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CANARIAS",
+    "nivel3": "CONSEJERÍA DE EDUCACIÓN, FORMACIÓN PROFESIONAL, ACTIVIDAD FÍSICA Y DEPORTES",
+    "importe": 950000.0,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 54,
+   "nif": "B43960830",
+   "nombre": "S. EDUC. ESPORT I LLEURE, S.L.",
+   "tipo": "empresa_deportiva",
+   "deporte": "sin_clasificar",
+   "importe": 949719.87,
+   "n": 2,
+   "convocatorias": 2,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CATALUÑA",
+    "nivel3": "SERVICIO PÚBLICO DE EMPLEO DE CATALUÑA",
+    "importe": 949719.87,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 55,
+   "nif": "G76371350",
+   "nombre": "CLUB DEPORTIVO VOLEIBOL GUAGUAS",
+   "tipo": "club",
+   "deporte": "voleibol",
+   "importe": 915456.58,
+   "n": 11,
+   "convocatorias": 9,
+   "organo_principal": {
+    "nivel1": "LOCAL",
+    "nivel2": "CABILDO INSULAR DE GRAN CANARIA",
+    "nivel3": "INSTITUTO INS. DE DEPORTES DE GRAN CANARIA",
+    "importe": 519695.0,
+    "pct_del_beneficiario": 56.77
+   }
+  },
+  {
+   "pos": 56,
+   "nif": "Q2878030B",
+   "nombre": "FEDERACION ESPAÑOLA DE PATINAJE",
+   "tipo": "federacion_nacional",
+   "deporte": "patinaje",
+   "importe": 910865.75,
+   "n": 8,
+   "convocatorias": 7,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 760865.75,
+    "pct_del_beneficiario": 83.53
+   }
+  },
+  {
+   "pos": 57,
+   "nif": "G08895120",
+   "nombre": "FEDERACIO CATALANA D'ATLETISME",
+   "tipo": "federacion_autonomica",
+   "deporte": "atletismo",
+   "importe": 901387.0,
+   "n": 2,
+   "convocatorias": 2,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CATALUÑA",
+    "nivel3": "CONSELL CATALÀ DE L'ESPORT",
+    "importe": 851387.0,
+    "pct_del_beneficiario": 94.45
+   }
+  },
+  {
+   "pos": 58,
+   "nif": "B01869858",
+   "nombre": "PARES Y NONES SPORT, S.L.",
+   "tipo": "empresa_deportiva",
+   "deporte": "sin_clasificar",
+   "importe": 880000.0,
+   "n": 1,
+   "convocatorias": 1,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE INDUSTRIA Y TURISMO",
+    "nivel3": "COMPAÑÍA ESPAÑOLA DE REAFIANZAMIENTO, S.M.E., S.A.",
+    "importe": 880000.0,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 59,
+   "nif": "G35221993",
+   "nombre": "FEDERACION CANARIA DE BALONMANO",
+   "tipo": "federacion_autonomica",
+   "deporte": "balonmano",
+   "importe": 851990.47,
+   "n": 9,
+   "convocatorias": 9,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CANARIAS",
+    "nivel3": "CONSEJERÍA DE EDUCACIÓN, FORMACIÓN PROFESIONAL, ACTIVIDAD FÍSICA Y DEPORTES",
+    "importe": 807770.47,
+    "pct_del_beneficiario": 94.81
+   }
+  },
+  {
+   "pos": 60,
+   "nif": "G08875437",
+   "nombre": "FEDERACIO CATALANA DE PATINATGE",
+   "tipo": "federacion_autonomica",
+   "deporte": "patinaje",
+   "importe": 798820.6,
+   "n": 8,
+   "convocatorias": 7,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CATALUÑA",
+    "nivel3": "CONSELL CATALÀ DE L'ESPORT",
+    "importe": 745708.0,
+    "pct_del_beneficiario": 93.35
+   }
+  },
+  {
+   "pos": 61,
+   "nif": "G41195363",
+   "nombre": "FEDERACION ANDALUZA DE NATACION",
+   "tipo": "federacion_autonomica",
+   "deporte": "natacion",
+   "importe": 785752.32,
+   "n": 8,
+   "convocatorias": 8,
+   "organo_principal": {
+    "nivel1": "LOCAL",
+    "nivel2": "MÁLAGA",
+    "nivel3": "AYUNTAMIENTO DE MÁLAGA",
+    "importe": 479000.0,
+    "pct_del_beneficiario": 60.96
+   }
+  },
+  {
+   "pos": 62,
+   "nif": "Q5856328I",
+   "nombre": "FEDERACIO CATALANA ESPORTS D'HIVERN",
+   "tipo": "federacion_autonomica",
+   "deporte": "esqui_invierno",
+   "importe": 747210.4,
+   "n": 1,
+   "convocatorias": 1,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CATALUÑA",
+    "nivel3": "CONSELL CATALÀ DE L'ESPORT",
+    "importe": 747210.4,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 63,
+   "nif": "A28087963",
+   "nombre": "CENTRO CULTURAL Y DEPORTIVO TAJAMAR",
+   "tipo": "empresa_deportiva",
+   "deporte": "sin_clasificar",
+   "importe": 742877.5,
+   "n": 12,
+   "convocatorias": 5,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "COMUNIDAD DE MADRID",
+    "nivel3": "CONSEJERÍA ECONOMÍA, HACIENDA Y EMPLEO",
+    "importe": 736877.5,
+    "pct_del_beneficiario": 99.19
+   }
+  },
+  {
+   "pos": 64,
+   "nif": "B96393020",
+   "nombre": "AGRUPACIO DE COMERCIANTS ESPORT DEVAL S.L.",
+   "tipo": "empresa_deportiva",
+   "deporte": "sin_clasificar",
+   "importe": 741728.6,
+   "n": 6,
+   "convocatorias": 6,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE ECONOMÍA, COMERCIO Y EMPRESA",
+    "nivel3": "INSTITUTO DE CRÉDITO OFICIAL",
+    "importe": 400000.0,
+    "pct_del_beneficiario": 53.93
+   }
+  },
+  {
+   "pos": 65,
+   "nif": "G07897432",
+   "nombre": "ASSOCIACIO ESPORTIVA PALMA DE MALLORCA F",
+   "tipo": "club",
+   "deporte": "sin_clasificar",
+   "importe": 741619.38,
+   "n": 20,
+   "convocatorias": 7,
+   "organo_principal": {
+    "nivel1": "LOCAL",
+    "nivel2": "CONSEJO INSULAR DE MALLORCA",
+    "nivel3": "FUNDACIÓN TURISMO RESPONSABLE DE MALLORCA",
+    "importe": 260000.0,
+    "pct_del_beneficiario": 35.06
+   }
+  },
+  {
+   "pos": 66,
+   "nif": "Q2878044C",
+   "nombre": "FED. ESP. DE VOLEIBOL",
+   "tipo": "federacion_nacional",
+   "deporte": "voleibol",
+   "importe": 739004.88,
+   "n": 8,
+   "convocatorias": 7,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 646500.68,
+    "pct_del_beneficiario": 87.48
+   }
+  },
+  {
+   "pos": 67,
+   "nif": "G35218239",
+   "nombre": "CLUB DE BALONCESTO ISLAS CANARIAS",
+   "tipo": "club",
+   "deporte": "baloncesto",
+   "importe": 726760.11,
+   "n": 9,
+   "convocatorias": 9,
+   "organo_principal": {
+    "nivel1": "LOCAL",
+    "nivel2": "CABILDO INSULAR DE GRAN CANARIA",
+    "nivel3": "INSTITUTO INS. DE DEPORTES DE GRAN CANARIA",
+    "importe": 569050.0,
+    "pct_del_beneficiario": 78.3
+   }
+  },
+  {
+   "pos": 68,
+   "nif": "G57139560",
+   "nombre": "FUNDACIÓ PER A L'ESPORT BALEAR",
+   "tipo": "otro",
+   "deporte": "sin_clasificar",
+   "importe": 723183.55,
+   "n": 3,
+   "convocatorias": 2,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 428295.63,
+    "pct_del_beneficiario": 59.22
+   }
+  },
+  {
+   "pos": 69,
+   "nif": "G52027927",
+   "nombre": "TORREBLANCA MELILLA CLUB DE FUTBOL",
+   "tipo": "club",
+   "deporte": "futbol",
+   "importe": 710020.82,
+   "n": 5,
+   "convocatorias": 4,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CIUDAD AUTÓNOMA DE MELILLA",
+    "nivel3": "CONSEJERÍA DE EDUCACIÓN, JUVENTUD Y DEPORTES",
+    "importe": 710020.82,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 70,
+   "nif": "Q2878039C",
+   "nombre": "FED. ESP. DE TIRO CON ARCO",
+   "tipo": "federacion_nacional",
+   "deporte": "tiro",
+   "importe": 705663.42,
+   "n": 11,
+   "convocatorias": 6,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 691204.85,
+    "pct_del_beneficiario": 97.95
+   }
+  },
+  {
+   "pos": 71,
+   "nif": "G47076617",
+   "nombre": "FEDERACIÓN DE ATLETISMO DE CASTILLA Y LEÓN",
+   "tipo": "federacion_autonomica",
+   "deporte": "atletismo",
+   "importe": 700606.45,
+   "n": 12,
+   "convocatorias": 12,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CASTILLA Y LEÓN",
+    "nivel3": "CONSEJERÍA DE CULTURA, TURISMO Y DEPORTE",
+    "importe": 531632.51,
+    "pct_del_beneficiario": 75.88
+   }
+  },
+  {
+   "pos": 72,
+   "nif": "G36040764",
+   "nombre": "FEDERACIÓN GALEGA DE PIRAGÜISMO",
+   "tipo": "federacion_autonomica",
+   "deporte": "remo_piraguismo",
+   "importe": 699695.26,
+   "n": 6,
+   "convocatorias": 5,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "GALICIA",
+    "nivel3": "CONSELLERÍA DE PRESIDENCIA, JUSTICIA Y DEPORTES",
+    "importe": 662258.3,
+    "pct_del_beneficiario": 94.65
+   }
+  },
+  {
+   "pos": 73,
+   "nif": "A60104932",
+   "nombre": "BASQUET MANRESA S.A.D",
+   "tipo": "sad",
+   "deporte": "baloncesto",
+   "importe": 697152.0,
+   "n": 3,
+   "convocatorias": 3,
+   "organo_principal": {
+    "nivel1": "LOCAL",
+    "nivel2": "MANRESA",
+    "nivel3": "AYUNTAMIENTO DE MANRESA",
+    "importe": 550000.0,
+    "pct_del_beneficiario": 78.89
+   }
+  },
+  {
+   "pos": 74,
+   "nif": "G35220888",
+   "nombre": "UNIÓN DEPORTIVA TABURIENTE",
+   "tipo": "club",
+   "deporte": "sin_clasificar",
+   "importe": 690625.39,
+   "n": 11,
+   "convocatorias": 9,
+   "organo_principal": {
+    "nivel1": "LOCAL",
+    "nivel2": "CABILDO INSULAR DE GRAN CANARIA",
+    "nivel3": "INSTITUTO INS. DE DEPORTES DE GRAN CANARIA",
+    "importe": 363280.0,
+    "pct_del_beneficiario": 52.6
+   }
+  },
+  {
+   "pos": 75,
+   "nif": "G81541666",
+   "nombre": "CLUB DEPORTIVO ELEMENTAL NATACION TORREJON",
+   "tipo": "club",
+   "deporte": "natacion",
+   "importe": 681546.58,
+   "n": 2,
+   "convocatorias": 2,
+   "organo_principal": {
+    "nivel1": "LOCAL",
+    "nivel2": "TORREJÓN DE ARDOZ",
+    "nivel3": "AYUNTAMIENTO DE TORREJÓN DE ARDOZ",
+    "importe": 681546.58,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 76,
+   "nif": "G34102517",
+   "nombre": "CLUB DEPORTIVO MARISTAS",
+   "tipo": "club",
+   "deporte": "sin_clasificar",
+   "importe": 670000.0,
+   "n": 2,
+   "convocatorias": 2,
+   "organo_principal": {
+    "nivel1": "LOCAL",
+    "nivel2": "PALENCIA",
+    "nivel3": "AYUNTAMIENTO DE PALENCIA",
+    "importe": 450000.0,
+    "pct_del_beneficiario": 67.16
+   }
+  },
+  {
+   "pos": 77,
+   "nif": "G12081154",
+   "nombre": "CLUB DE ATLETISMO-PLAYAS DE CASTELLÓN.",
+   "tipo": "club",
+   "deporte": "atletismo",
+   "importe": 666459.24,
+   "n": 17,
+   "convocatorias": 9,
+   "organo_principal": {
+    "nivel1": "LOCAL",
+    "nivel2": "DIPUTACIÓN PROV. DE CASTELLÓN",
+    "nivel3": "DIPUTACIÓN PROVINCIAL DE CASTELLÓ/CASTELLÓN",
+    "importe": 383263.07,
+    "pct_del_beneficiario": 57.51
+   }
+  },
+  {
+   "pos": 78,
+   "nif": "Q2878019E",
+   "nombre": "REAL FEDERACION ESP. DE GOLF",
+   "tipo": "federacion_nacional",
+   "deporte": "golf",
+   "importe": 637477.21,
+   "n": 7,
+   "convocatorias": 6,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 637477.21,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 79,
+   "nif": "G35051739",
+   "nombre": "CLUB BALONMANO REMUDAS ISLA DE GRAN CANARIA",
+   "tipo": "club",
+   "deporte": "balonmano",
+   "importe": 629087.06,
+   "n": 6,
+   "convocatorias": 5,
+   "organo_principal": {
+    "nivel1": "LOCAL",
+    "nivel2": "CABILDO INSULAR DE GRAN CANARIA",
+    "nivel3": "INSTITUTO INS. DE DEPORTES DE GRAN CANARIA",
+    "importe": 471950.0,
+    "pct_del_beneficiario": 75.02
+   }
+  },
+  {
+   "pos": 80,
+   "nif": "B30887053",
+   "nombre": "DEPORTE Y OCIO DE CARTAGENA, S.L.U.",
+   "tipo": "empresa_deportiva",
+   "deporte": "sin_clasificar",
+   "importe": 620541.65,
+   "n": 13,
+   "convocatorias": 2,
+   "organo_principal": {
+    "nivel1": "LOCAL",
+    "nivel2": "CARTAGENA",
+    "nivel3": "AYUNTAMIENTO DE CARTAGENA",
+    "importe": 595026.65,
+    "pct_del_beneficiario": 95.89
+   }
+  },
+  {
+   "pos": 81,
+   "nif": "G35029115",
+   "nombre": "CLUB NATACIÓN METROPOLE",
+   "tipo": "club",
+   "deporte": "natacion",
+   "importe": 613089.02,
+   "n": 12,
+   "convocatorias": 10,
+   "organo_principal": {
+    "nivel1": "LOCAL",
+    "nivel2": "CABILDO INSULAR DE GRAN CANARIA",
+    "nivel3": "INSTITUTO INS. DE DEPORTES DE GRAN CANARIA",
+    "importe": 415871.03,
+    "pct_del_beneficiario": 67.83
+   }
+  },
+  {
+   "pos": 82,
+   "nif": "B73537193",
+   "nombre": "INSTALACIONES DEPORTIVAS DE MURCIA SL",
+   "tipo": "empresa_deportiva",
+   "deporte": "sin_clasificar",
+   "importe": 605575.43,
+   "n": 1,
+   "convocatorias": 1,
+   "organo_principal": {
+    "nivel1": "LOCAL",
+    "nivel2": "MURCIA",
+    "nivel3": "AYUNTAMIENTO DE MURCIA",
+    "importe": 605575.43,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 83,
+   "nif": "B78548799",
+   "nombre": "PIEDRAFITA SYSTEMS SL",
+   "tipo": "empresa_deportiva",
+   "deporte": "sin_clasificar",
+   "importe": 604000.0,
+   "n": 2,
+   "convocatorias": 2,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE ECONOMÍA, COMERCIO Y EMPRESA",
+    "nivel3": "INSTITUTO DE CRÉDITO OFICIAL",
+    "importe": 604000.0,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 84,
+   "nif": "G14933808",
+   "nombre": "AUTOMÓVIL CLUB DE CÓRDOBA CD",
+   "tipo": "club",
+   "deporte": "motor",
+   "importe": 600000.0,
+   "n": 2,
+   "convocatorias": 2,
+   "organo_principal": {
+    "nivel1": "LOCAL",
+    "nivel2": "DIPUTACIÓN PROV. DE CÓRDOBA",
+    "nivel3": "DIPUTACIÓN PROVINCIAL DE CÓRDOBA",
+    "importe": 300000.0,
+    "pct_del_beneficiario": 50.0
+   }
+  },
+  {
+   "pos": 85,
+   "nif": "G35250687",
+   "nombre": "CLUB VOLEIBOL J. A. V. OLIMPICO",
+   "tipo": "club",
+   "deporte": "voleibol",
+   "importe": 593765.55,
+   "n": 8,
+   "convocatorias": 7,
+   "organo_principal": {
+    "nivel1": "LOCAL",
+    "nivel2": "CABILDO INSULAR DE GRAN CANARIA",
+    "nivel3": "INSTITUTO INS. DE DEPORTES DE GRAN CANARIA",
+    "importe": 278350.0,
+    "pct_del_beneficiario": 46.88
+   }
+  },
+  {
+   "pos": 86,
+   "nif": "G96088026",
+   "nombre": "FEDERACION DE DEPORTES ADAPTADOS DE LA CDAD VALENC",
+   "tipo": "federacion_autonomica",
+   "deporte": "deporte_adaptado",
+   "importe": 589381.24,
+   "n": 12,
+   "convocatorias": 10,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "COMUNITAT VALENCIANA",
+    "nivel3": "SECRETARÍA AUTONÓMICA DE CULTURA Y DEPORTE",
+    "importe": 344835.0,
+    "pct_del_beneficiario": 58.51
+   }
+  },
+  {
+   "pos": 87,
+   "nif": "G46424503",
+   "nombre": "FEDERACION DE VOLEIBOL DE LA COMUNIDAD VALENCIANA",
+   "tipo": "federacion_autonomica",
+   "deporte": "voleibol",
+   "importe": 580840.13,
+   "n": 25,
+   "convocatorias": 21,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "COMUNITAT VALENCIANA",
+    "nivel3": "SECRETARÍA AUTONÓMICA DE RELACIONES INSTITUCIONALES Y TRANSPARENCIA",
+    "importe": 260470.0,
+    "pct_del_beneficiario": 44.84
+   }
+  },
+  {
+   "pos": 88,
+   "nif": "G10056406",
+   "nombre": "FEDERACION EXTREMEÑA DE BALONCESTO",
+   "tipo": "federacion_autonomica",
+   "deporte": "baloncesto",
+   "importe": 579500.0,
+   "n": 3,
+   "convocatorias": 3,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "EXTREMADURA",
+    "nivel3": "DIRECCIÓN GENERAL DE DEPORTES",
+    "importe": 493500.0,
+    "pct_del_beneficiario": 85.16
+   }
+  },
+  {
+   "pos": 89,
+   "nif": "G29961018",
+   "nombre": "CLUB DEPORTIVO ENRIQUE SOLER",
+   "tipo": "club",
+   "deporte": "sin_clasificar",
+   "importe": 571754.49,
+   "n": 6,
+   "convocatorias": 3,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CIUDAD AUTÓNOMA DE MELILLA",
+    "nivel3": "CONSEJERÍA DE EDUCACIÓN, JUVENTUD Y DEPORTES",
+    "importe": 571754.49,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 90,
+   "nif": "Q5855022I",
+   "nombre": "FEDERACIO CATALANA DE FUTBOL",
+   "tipo": "federacion_autonomica",
+   "deporte": "futbol",
+   "importe": 563857.0,
+   "n": 2,
+   "convocatorias": 2,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CATALUÑA",
+    "nivel3": "CONSELL CATALÀ DE L'ESPORT",
+    "importe": 553857.0,
+    "pct_del_beneficiario": 98.23
+   }
+  },
+  {
+   "pos": 91,
+   "nif": "A79092383",
+   "nombre": "CLUB FUTBOL FUENLABRADA S.A.D.",
+   "tipo": "sad",
+   "deporte": "futbol",
+   "importe": 551740.0,
+   "n": 3,
+   "convocatorias": 2,
+   "organo_principal": {
+    "nivel1": "LOCAL",
+    "nivel2": "FUENLABRADA",
+    "nivel3": "O.A PATRONATO MUNICIPAL DE DEPORTES",
+    "importe": 550000.0,
+    "pct_del_beneficiario": 99.68
+   }
+  },
+  {
+   "pos": 92,
+   "nif": "B42976449",
+   "nombre": "ACTIV FITNESS ESPAGNE, S.L.",
+   "tipo": "empresa_deportiva",
+   "deporte": "halterofilia_lucha",
+   "importe": 550000.0,
+   "n": 2,
+   "convocatorias": 2,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE INDUSTRIA Y TURISMO",
+    "nivel3": "COMPAÑÍA ESPAÑOLA DE REAFIANZAMIENTO, S.M.E., S.A.",
+    "importe": 550000.0,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 93,
+   "nif": "G35816420",
+   "nombre": "FUNDACIÓN CANARIA DEL DEPORTE",
+   "tipo": "otro",
+   "deporte": "sin_clasificar",
+   "importe": 550000.0,
+   "n": 2,
+   "convocatorias": 2,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CANARIAS",
+    "nivel3": "PRESIDENCIA DEL GOBIERNO",
+    "importe": 400000.0,
+    "pct_del_beneficiario": 72.73
+   }
+  },
+  {
+   "pos": 94,
+   "nif": "G60627445",
+   "nombre": "FUND. FUTBOL CLUB BARCELONA",
+   "tipo": "club",
+   "deporte": "futbol",
+   "importe": 545000.0,
+   "n": 7,
+   "convocatorias": 7,
+   "organo_principal": {
+    "nivel1": "LOCAL",
+    "nivel2": "DIPUTACIÓN PROV. DE BARCELONA",
+    "nivel3": "DIPUTACIÓN PROVINCIAL DE BARCELONA",
+    "importe": 400000.0,
+    "pct_del_beneficiario": 73.39
+   }
+  },
+  {
+   "pos": 95,
+   "nif": "A08147555",
+   "nombre": "CENTRO CULT.Y DEPORT.XALOC,SA.",
+   "tipo": "empresa_deportiva",
+   "deporte": "sin_clasificar",
+   "importe": 544386.12,
+   "n": 3,
+   "convocatorias": 3,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CATALUÑA",
+    "nivel3": "SERVICIO PÚBLICO DE EMPLEO DE CATALUÑA",
+    "importe": 518858.12,
+    "pct_del_beneficiario": 95.31
+   }
+  },
+  {
+   "pos": 96,
+   "nif": "B53413571",
+   "nombre": "TUWYNCAR SPORT SL",
+   "tipo": "empresa_deportiva",
+   "deporte": "sin_clasificar",
+   "importe": 542000.0,
+   "n": 2,
+   "convocatorias": 2,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "COMUNITAT VALENCIANA",
+    "nivel3": "SECRETARÍA AUTONÓMICA DE HACIENDA Y FINANCIACIÓN",
+    "importe": 530000.0,
+    "pct_del_beneficiario": 97.79
+   }
+  },
+  {
+   "pos": 97,
+   "nif": "G08859142",
+   "nombre": "CLUB NATACIO SABADELL",
+   "tipo": "club",
+   "deporte": "natacion",
+   "importe": 541936.14,
+   "n": 5,
+   "convocatorias": 4,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CATALUÑA",
+    "nivel3": "CONSELL CATALÀ DE L'ESPORT",
+    "importe": 349111.2,
+    "pct_del_beneficiario": 64.42
+   }
+  },
+  {
+   "pos": 98,
+   "nif": "Q2878040A",
+   "nombre": "REAL FED.ESP. DE TIRO OLIMPICO",
+   "tipo": "federacion_nacional",
+   "deporte": "tiro",
+   "importe": 535714.06,
+   "n": 6,
+   "convocatorias": 5,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 535714.06,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 99,
+   "nif": "G08829020",
+   "nombre": "FEDERACIO CATALANA DE GIMNASTICA",
+   "tipo": "federacion_autonomica",
+   "deporte": "gimnasia",
+   "importe": 531752.6,
+   "n": 3,
+   "convocatorias": 3,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CATALUÑA",
+    "nivel3": "CONSELL CATALÀ DE L'ESPORT",
+    "importe": 451752.6,
+    "pct_del_beneficiario": 84.96
+   }
+  },
+  {
+   "pos": 100,
+   "nif": "G52006970",
+   "nombre": "CLUB DEPORTIVO BASICO LA SALLE EL CARMEN",
+   "tipo": "club",
+   "deporte": "sin_clasificar",
+   "importe": 530986.89,
+   "n": 11,
+   "convocatorias": 7,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CIUDAD AUTÓNOMA DE MELILLA",
+    "nivel3": "CONSEJERÍA DE EDUCACIÓN, JUVENTUD Y DEPORTES",
+    "importe": 515986.89,
+    "pct_del_beneficiario": 97.18
+   }
+  }
+ ],
+ "2025": [
+  {
+   "pos": 1,
+   "nif": "A96793690",
+   "nombre": "CIRCUITO DEL MOTOR Y PROM DEPORTIVA SA",
+   "tipo": "empresa_deportiva",
+   "deporte": "motor",
+   "importe": 16466591.59,
+   "n": 6,
+   "convocatorias": 5,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "COMUNITAT VALENCIANA",
+    "nivel3": "SECRETARÍA AUTONÓMICA DE RELACIONES INSTITUCIONALES Y TRANSPARENCIA",
+    "importe": 16349000.0,
+    "pct_del_beneficiario": 99.29
+   }
+  },
+  {
+   "pos": 2,
+   "nif": "G11902475",
+   "nombre": "AGRUPACION DEPORTIVA CEUTA FUTBOL CLUB",
+   "tipo": "club",
+   "deporte": "futbol",
+   "importe": 13658837.46,
+   "n": 4,
+   "convocatorias": 4,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CIUDAD AUTÓNOMA DE CEUTA",
+    "nivel3": "CONSEJERÍA DE COMERCIO, TURISMO, EMPLEO Y DEPORTE",
+    "importe": 7363837.46,
+    "pct_del_beneficiario": 53.91
+   }
+  },
+  {
+   "pos": 3,
+   "nif": "Q2878029D",
+   "nombre": "FED. ESP. DE NATACION",
+   "tipo": "federacion_nacional",
+   "deporte": "natacion",
+   "importe": 11196700.58,
+   "n": 23,
+   "convocatorias": 16,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 9549967.84,
+    "pct_del_beneficiario": 85.29
+   }
+  },
+  {
+   "pos": 4,
+   "nif": "Q2878003I",
+   "nombre": "REAL FEDERACION ESPAÑOLA DE ATLETISMO",
+   "tipo": "federacion_nacional",
+   "deporte": "atletismo",
+   "importe": 11175029.59,
+   "n": 25,
+   "convocatorias": 20,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 8514087.61,
+    "pct_del_beneficiario": 76.19
+   }
+  },
+  {
+   "pos": 5,
+   "nif": "Q2878005D",
+   "nombre": "FEDERACION ESP. DE BALONCESTO",
+   "tipo": "federacion_nacional",
+   "deporte": "baloncesto",
+   "importe": 8465113.31,
+   "n": 14,
+   "convocatorias": 12,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 8129963.31,
+    "pct_del_beneficiario": 96.04
+   }
+  },
+  {
+   "pos": 6,
+   "nif": "Q2878033F",
+   "nombre": "FED. ESP. DE PIRAGUISMO",
+   "tipo": "federacion_nacional",
+   "deporte": "remo_piraguismo",
+   "importe": 7761257.81,
+   "n": 17,
+   "convocatorias": 12,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 7729257.81,
+    "pct_del_beneficiario": 99.59
+   }
+  },
+  {
+   "pos": 7,
+   "nif": "A26362145",
+   "nombre": "LOGROÑO DEPORTE,S.A.",
+   "tipo": "empresa_deportiva",
+   "deporte": "sin_clasificar",
+   "importe": 6800000.0,
+   "n": 2,
+   "convocatorias": 2,
+   "organo_principal": {
+    "nivel1": "LOCAL",
+    "nivel2": "LOGROÑO",
+    "nivel3": "AYUNTAMIENTO DE LOGROÑO",
+    "importe": 6800000.0,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 8,
+   "nif": "Q2878022I",
+   "nombre": "FED. ESP. DE HOCKEY",
+   "tipo": "federacion_nacional",
+   "deporte": "hockey",
+   "importe": 6171735.21,
+   "n": 16,
+   "convocatorias": 11,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 5271735.21,
+    "pct_del_beneficiario": 85.42
+   }
+  },
+  {
+   "pos": 9,
+   "nif": "Q2878006B",
+   "nombre": "FEDERACION ESPAÑOLA DE BALONMANO",
+   "tipo": "federacion_nacional",
+   "deporte": "balonmano",
+   "importe": 6100282.93,
+   "n": 19,
+   "convocatorias": 15,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 5635282.93,
+    "pct_del_beneficiario": 92.38
+   }
+  },
+  {
+   "pos": 10,
+   "nif": "Q2878012J",
+   "nombre": "REAL FEDERACION ESPAÑOLA DE CICLISMO",
+   "tipo": "federacion_nacional",
+   "deporte": "ciclismo",
+   "importe": 6074404.83,
+   "n": 19,
+   "convocatorias": 14,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 5432404.83,
+    "pct_del_beneficiario": 89.43
+   }
+  },
+  {
+   "pos": 11,
+   "nif": "Q2878015C",
+   "nombre": "FED. ESP. DE DEPORTES DE INVIERNO",
+   "tipo": "federacion_nacional",
+   "deporte": "esqui_invierno",
+   "importe": 5818330.25,
+   "n": 16,
+   "convocatorias": 10,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 4608330.25,
+    "pct_del_beneficiario": 79.2
+   }
+  },
+  {
+   "pos": 12,
+   "nif": "Q0878004A",
+   "nombre": "FEDERACION ESP. DE TRIATLON",
+   "tipo": "federacion_nacional",
+   "deporte": "triatlon",
+   "importe": 5495601.61,
+   "n": 24,
+   "convocatorias": 20,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 3480601.61,
+    "pct_del_beneficiario": 63.33
+   }
+  },
+  {
+   "pos": 13,
+   "nif": "Q2878043E",
+   "nombre": "FEDERACION ESPAÑOLA DE VELA",
+   "tipo": "federacion_nacional",
+   "deporte": "vela_nautica",
+   "importe": 5481067.81,
+   "n": 15,
+   "convocatorias": 11,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 5401067.81,
+    "pct_del_beneficiario": 98.54
+   }
+  },
+  {
+   "pos": 14,
+   "nif": "Q2878036I",
+   "nombre": "FED. ESP. DE RUGBY",
+   "tipo": "federacion_nacional",
+   "deporte": "rugby",
+   "importe": 5188333.67,
+   "n": 16,
+   "convocatorias": 10,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 4378333.67,
+    "pct_del_beneficiario": 84.39
+   }
+  },
+  {
+   "pos": 15,
+   "nif": "A38615191",
+   "nombre": "GEST. INS. DEPORTE, CULTURA Y OCIO SA U.",
+   "tipo": "empresa_deportiva",
+   "deporte": "sin_clasificar",
+   "importe": 4041631.39,
+   "n": 5,
+   "convocatorias": 5,
+   "organo_principal": {
+    "nivel1": "LOCAL",
+    "nivel2": "CABILDO INSULAR DE TENERIFE",
+    "nivel3": "CABILDO INSULAR DE TENERIFE",
+    "importe": 4041631.39,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 16,
+   "nif": "A35310598",
+   "nombre": "CLUB DE BALONCESTO GRAN CANARIA CLARET SAD",
+   "tipo": "sad",
+   "deporte": "baloncesto",
+   "importe": 3922500.0,
+   "n": 3,
+   "convocatorias": 3,
+   "organo_principal": {
+    "nivel1": "LOCAL",
+    "nivel2": "CABILDO INSULAR DE GRAN CANARIA",
+    "nivel3": "INSTITUTO INS. DE DEPORTES DE GRAN CANARIA",
+    "importe": 3900000.0,
+    "pct_del_beneficiario": 99.43
+   }
+  },
+  {
+   "pos": 17,
+   "nif": "Q2878035A",
+   "nombre": "FED. ESP. DE REMO",
+   "tipo": "federacion_nacional",
+   "deporte": "remo_piraguismo",
+   "importe": 3836334.01,
+   "n": 13,
+   "convocatorias": 9,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 3313834.01,
+    "pct_del_beneficiario": 86.38
+   }
+  },
+  {
+   "pos": 18,
+   "nif": "Q0878003C",
+   "nombre": "REAL FEDERACION ESPAÑOLA DE TENIS  ESPAÑA ESPAÑA",
+   "tipo": "federacion_nacional",
+   "deporte": "tenis",
+   "importe": 3508150.44,
+   "n": 10,
+   "convocatorias": 8,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 3508150.44,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 19,
+   "nif": "G46374351",
+   "nombre": "FEDERACIO DE PILOTA VALENCIANA",
+   "tipo": "federacion_autonomica",
+   "deporte": "pelota",
+   "importe": 3467169.23,
+   "n": 14,
+   "convocatorias": 14,
+   "organo_principal": {
+    "nivel1": "LOCAL",
+    "nivel2": "DIPUTACIÓN PROV. DE VALENCIA",
+    "nivel3": "DIPUTACIÓN PROVINCIAL DE VALENCIA",
+    "importe": 1285000.0,
+    "pct_del_beneficiario": 37.06
+   }
+  },
+  {
+   "pos": 20,
+   "nif": "G35698513",
+   "nombre": "FUNDACION CANARIA \"UNION DEPORTIVAALMAS\"",
+   "tipo": "club",
+   "deporte": "sin_clasificar",
+   "importe": 3220000.0,
+   "n": 5,
+   "convocatorias": 5,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CANARIAS",
+    "nivel3": "PRESIDENCIA DEL GOBIERNO",
+    "importe": 2000000.0,
+    "pct_del_beneficiario": 62.11
+   }
+  },
+  {
+   "pos": 21,
+   "nif": "Q2878014F",
+   "nombre": "FEDERACIÓN ESPAÑOLA DE ESGRIMA",
+   "tipo": "federacion_nacional",
+   "deporte": "esgrima",
+   "importe": 3125185.12,
+   "n": 16,
+   "convocatorias": 11,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 2436890.11,
+    "pct_del_beneficiario": 77.98
+   }
+  },
+  {
+   "pos": 22,
+   "nif": "Q2878018G",
+   "nombre": "FED. ESP. DE GIMNASIA",
+   "tipo": "federacion_nacional",
+   "deporte": "gimnasia",
+   "importe": 3026794.09,
+   "n": 16,
+   "convocatorias": 12,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 3006794.09,
+    "pct_del_beneficiario": 99.34
+   }
+  },
+  {
+   "pos": 23,
+   "nif": "Q2878019E",
+   "nombre": "REAL FEDERACION ESP. DE GOLF",
+   "tipo": "federacion_nacional",
+   "deporte": "golf",
+   "importe": 3015957.34,
+   "n": 12,
+   "convocatorias": 9,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 2933870.94,
+    "pct_del_beneficiario": 97.28
+   }
+  },
+  {
+   "pos": 24,
+   "nif": "Q2878010D",
+   "nombre": "FEDERACIÓN ESPAÑOLA DE BOXEO",
+   "tipo": "federacion_nacional",
+   "deporte": "boxeo",
+   "importe": 3009787.07,
+   "n": 20,
+   "convocatorias": 14,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 2285508.85,
+    "pct_del_beneficiario": 75.94
+   }
+  },
+  {
+   "pos": 25,
+   "nif": "Q5856178H",
+   "nombre": "CENTRO DE ALTO RENDIMIENTO DE SAN CUGAT",
+   "tipo": "entidad_publica",
+   "deporte": "sin_clasificar",
+   "importe": 3000000.0,
+   "n": 1,
+   "convocatorias": 1,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 3000000.0,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 26,
+   "nif": "Q2878030B",
+   "nombre": "FEDERACION ESPAÑOLA DE PATINAJE",
+   "tipo": "federacion_nacional",
+   "deporte": "patinaje",
+   "importe": 2987133.18,
+   "n": 21,
+   "convocatorias": 18,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 2197433.38,
+    "pct_del_beneficiario": 73.56
+   }
+  },
+  {
+   "pos": 27,
+   "nif": "G84574987",
+   "nombre": "FEDERACION ESPAÑOLA DE DEPORTES DE HIELO",
+   "tipo": "federacion_nacional",
+   "deporte": "esqui_invierno",
+   "importe": 2946399.04,
+   "n": 9,
+   "convocatorias": 6,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 2946399.04,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 28,
+   "nif": "A76614999",
+   "nombre": "CANTERA BASE 1939 CANARIAS SAD.",
+   "tipo": "sad",
+   "deporte": "sin_clasificar",
+   "importe": 2889570.75,
+   "n": 9,
+   "convocatorias": 5,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE INDUSTRIA Y TURISMO",
+    "nivel3": "COMPAÑÍA ESPAÑOLA DE REAFIANZAMIENTO, S.M.E., S.A.",
+    "importe": 2783339.83,
+    "pct_del_beneficiario": 96.32
+   }
+  },
+  {
+   "pos": 29,
+   "nif": "G78025913",
+   "nombre": "FEDERACIÓN ESPAÑOLA DE BADMINTON",
+   "tipo": "federacion_nacional",
+   "deporte": "badminton",
+   "importe": 2798994.9,
+   "n": 16,
+   "convocatorias": 11,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 2232494.9,
+    "pct_del_beneficiario": 79.76
+   }
+  },
+  {
+   "pos": 30,
+   "nif": "Q2878038E",
+   "nombre": "FED. ESP. DE TENIS DE MESA",
+   "tipo": "federacion_nacional",
+   "deporte": "tenis_de_mesa",
+   "importe": 2719977.78,
+   "n": 16,
+   "convocatorias": 12,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 2339977.78,
+    "pct_del_beneficiario": 86.03
+   }
+  },
+  {
+   "pos": 31,
+   "nif": "Q2878023G",
+   "nombre": "FED. ESP. DE JUDO Y DEPORTES ASOCIADOS",
+   "tipo": "federacion_nacional",
+   "deporte": "artes_marciales",
+   "importe": 2665854.84,
+   "n": 19,
+   "convocatorias": 14,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 2633164.83,
+    "pct_del_beneficiario": 98.77
+   }
+  },
+  {
+   "pos": 32,
+   "nif": "Q2878026J",
+   "nombre": "FED. ESP. DE DEPORTES DE MONTAÑA Y ESCALADA",
+   "tipo": "federacion_nacional",
+   "deporte": "montana_escalada",
+   "importe": 2593260.66,
+   "n": 11,
+   "convocatorias": 8,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 2593260.66,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 33,
+   "nif": "Q2878021A",
+   "nombre": "FED. ESP. DE HIPICA",
+   "tipo": "federacion_nacional",
+   "deporte": "hipica",
+   "importe": 2572350.99,
+   "n": 13,
+   "convocatorias": 9,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 2434850.99,
+    "pct_del_beneficiario": 94.65
+   }
+  },
+  {
+   "pos": 34,
+   "nif": "Q2878025B",
+   "nombre": "FEDERACIÓN ESPAÑOLA DE DEPORTES DE PERSONAS CON DISCAPACIDAD FÍSICA",
+   "tipo": "federacion_nacional",
+   "deporte": "deporte_adaptado",
+   "importe": 2554603.95,
+   "n": 15,
+   "convocatorias": 11,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 1963303.95,
+    "pct_del_beneficiario": 76.85
+   }
+  },
+  {
+   "pos": 35,
+   "nif": "A36609105",
+   "nombre": "REAL CLUB CELTA VIGO, SAD",
+   "tipo": "sad",
+   "deporte": "sin_clasificar",
+   "importe": 2500000.0,
+   "n": 1,
+   "convocatorias": 1,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "GALICIA",
+    "nivel3": "INSTITUTO GALLEGO DE PROMOCIÓN ECONÓMICA (IGAPE)",
+    "importe": 2500000.0,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 36,
+   "nif": "Q0878007D",
+   "nombre": "FED. ESP. DE TAEKWONDO",
+   "tipo": "federacion_nacional",
+   "deporte": "artes_marciales",
+   "importe": 2434050.71,
+   "n": 13,
+   "convocatorias": 10,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 2371534.76,
+    "pct_del_beneficiario": 97.43
+   }
+  },
+  {
+   "pos": 37,
+   "nif": "B82134073",
+   "nombre": "CLUB DE GOLF EL BOSQUE S.L.",
+   "tipo": "sad",
+   "deporte": "golf",
+   "importe": 2340000.0,
+   "n": 2,
+   "convocatorias": 1,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE ECONOMÍA, COMERCIO Y EMPRESA",
+    "nivel3": "INSTITUTO DE CRÉDITO OFICIAL",
+    "importe": 2340000.0,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 38,
+   "nif": "G76772821",
+   "nombre": "FUNDACION CANARIA CLUB DEPORTIVO TE",
+   "tipo": "club",
+   "deporte": "sin_clasificar",
+   "importe": 2326000.0,
+   "n": 6,
+   "convocatorias": 6,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CANARIAS",
+    "nivel3": "CONSEJERÍA DE EDUCACIÓN, FORMACIÓN PROFESIONAL, ACTIVIDAD FÍSICA Y DEPORTES",
+    "importe": 1050000.0,
+    "pct_del_beneficiario": 45.14
+   }
+  },
+  {
+   "pos": 39,
+   "nif": "G76261825",
+   "nombre": "CLUB DEPORTIVO TODO SPORT",
+   "tipo": "club",
+   "deporte": "sin_clasificar",
+   "importe": 2312000.0,
+   "n": 5,
+   "convocatorias": 5,
+   "organo_principal": {
+    "nivel1": "LOCAL",
+    "nivel2": "CABILDO INSULAR DE GRAN CANARIA",
+    "nivel3": "INSTITUTO INS. DE DEPORTES DE GRAN CANARIA",
+    "importe": 1750000.0,
+    "pct_del_beneficiario": 75.69
+   }
+  },
+  {
+   "pos": 40,
+   "nif": "Q2878044C",
+   "nombre": "FED. ESP. DE VOLEIBOL",
+   "tipo": "federacion_nacional",
+   "deporte": "voleibol",
+   "importe": 2302456.03,
+   "n": 14,
+   "convocatorias": 10,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 2156456.03,
+    "pct_del_beneficiario": 93.66
+   }
+  },
+  {
+   "pos": 41,
+   "nif": "Q2878004G",
+   "nombre": "REAL FEDERACION ESPAÑOLA DE AUTOMO",
+   "tipo": "federacion_nacional",
+   "deporte": "motor",
+   "importe": 2180421.12,
+   "n": 8,
+   "convocatorias": 6,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 2179885.62,
+    "pct_del_beneficiario": 99.98
+   }
+  },
+  {
+   "pos": 42,
+   "nif": "G35390947",
+   "nombre": "FEDERACION CANARIA DE FUTBOL",
+   "tipo": "federacion_autonomica",
+   "deporte": "futbol",
+   "importe": 2050000.0,
+   "n": 1,
+   "convocatorias": 1,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CANARIAS",
+    "nivel3": "CONSEJERÍA DE EDUCACIÓN, FORMACIÓN PROFESIONAL, ACTIVIDAD FÍSICA Y DEPORTES",
+    "importe": 2050000.0,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 43,
+   "nif": "G52009750",
+   "nombre": "CLUB VOLEIBOL MELILLA",
+   "tipo": "club",
+   "deporte": "voleibol",
+   "importe": 1983586.2,
+   "n": 18,
+   "convocatorias": 5,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CIUDAD AUTÓNOMA DE MELILLA",
+    "nivel3": "CONSEJERÍA DE EDUCACIÓN, JUVENTUD Y DEPORTES",
+    "importe": 1233586.2,
+    "pct_del_beneficiario": 62.19
+   }
+  },
+  {
+   "pos": 44,
+   "nif": "Q2878040A",
+   "nombre": "REAL FED.ESP. DE TIRO OLIMPICO",
+   "tipo": "federacion_nacional",
+   "deporte": "tiro",
+   "importe": 1828936.25,
+   "n": 14,
+   "convocatorias": 10,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 1828936.25,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 45,
+   "nif": "G08982449",
+   "nombre": "CLUB NATACIO MONTJUÏC",
+   "tipo": "club",
+   "deporte": "natacion",
+   "importe": 1815403.0,
+   "n": 3,
+   "convocatorias": 3,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CATALUÑA",
+    "nivel3": "INSTITUT CATALÀ DE FINANCES (ICF)",
+    "importe": 1800000.0,
+    "pct_del_beneficiario": 99.15
+   }
+  },
+  {
+   "pos": 46,
+   "nif": "Q2878020C",
+   "nombre": "FED. ESP. DE HALTEROFILIA",
+   "tipo": "federacion_nacional",
+   "deporte": "halterofilia_lucha",
+   "importe": 1779569.07,
+   "n": 19,
+   "convocatorias": 12,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 1366600.66,
+    "pct_del_beneficiario": 76.79
+   }
+  },
+  {
+   "pos": 47,
+   "nif": "G29903416",
+   "nombre": "U D MELILLA",
+   "tipo": "club",
+   "deporte": "futbol",
+   "importe": 1712947.15,
+   "n": 4,
+   "convocatorias": 3,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CIUDAD AUTÓNOMA DE MELILLA",
+    "nivel3": "CONSEJERÍA DE EDUCACIÓN, JUVENTUD Y DEPORTES",
+    "importe": 1712947.15,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 48,
+   "nif": "G51006476",
+   "nombre": "FEDERACION FUTBOL DE CEUTA",
+   "tipo": "federacion_autonomica",
+   "deporte": "futbol",
+   "importe": 1683588.13,
+   "n": 2,
+   "convocatorias": 2,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CIUDAD AUTÓNOMA DE CEUTA",
+    "nivel3": "INSTITUTO CEUTÍ DE DEPORTES",
+    "importe": 1600000.0,
+    "pct_del_beneficiario": 95.04
+   }
+  },
+  {
+   "pos": 49,
+   "nif": "Q2878039C",
+   "nombre": "FED. ESP. DE TIRO CON ARCO",
+   "tipo": "federacion_nacional",
+   "deporte": "tiro",
+   "importe": 1636692.72,
+   "n": 20,
+   "convocatorias": 11,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 1610183.26,
+    "pct_del_beneficiario": 98.38
+   }
+  },
+  {
+   "pos": 50,
+   "nif": "A28087963",
+   "nombre": "CENTRO CULTURAL Y DEPORTIVO TAJAMAR",
+   "tipo": "empresa_deportiva",
+   "deporte": "sin_clasificar",
+   "importe": 1536597.98,
+   "n": 15,
+   "convocatorias": 8,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "COMUNIDAD DE MADRID",
+    "nivel3": "CONSEJERÍA ECONOMÍA, HACIENDA Y EMPLEO",
+    "importe": 921454.5,
+    "pct_del_beneficiario": 59.97
+   }
+  },
+  {
+   "pos": 51,
+   "nif": "Q2878024E",
+   "nombre": "FEDERACIÓN ESPAÑOLA DE LUCHAS OLIMPICAS Y D.A.",
+   "tipo": "federacion_nacional",
+   "deporte": "halterofilia_lucha",
+   "importe": 1518539.74,
+   "n": 14,
+   "convocatorias": 9,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 1172049.87,
+    "pct_del_beneficiario": 77.18
+   }
+  },
+  {
+   "pos": 52,
+   "nif": "G38318069",
+   "nombre": "FEDERACION CANARIA DE BALONCESTO",
+   "tipo": "federacion_autonomica",
+   "deporte": "baloncesto",
+   "importe": 1443599.31,
+   "n": 11,
+   "convocatorias": 11,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CANARIAS",
+    "nivel3": "CONSEJERÍA DE EDUCACIÓN, FORMACIÓN PROFESIONAL, ACTIVIDAD FÍSICA Y DEPORTES",
+    "importe": 1413239.31,
+    "pct_del_beneficiario": 97.9
+   }
+  },
+  {
+   "pos": 53,
+   "nif": "G10521078",
+   "nombre": "ASOCIACION CULTURAL, DEPORTIVA Y AYUDA A L INMIGRA",
+   "tipo": "club",
+   "deporte": "sin_clasificar",
+   "importe": 1440000.0,
+   "n": 1,
+   "convocatorias": 1,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "ANDALUCÍA",
+    "nivel3": "SERVICIO ANDALUZ DE EMPLEO",
+    "importe": 1440000.0,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 54,
+   "nif": "S2805007H",
+   "nombre": "COMITÉ OLÍMPICO ESPAÑOL",
+   "tipo": "otro",
+   "deporte": "sin_clasificar",
+   "importe": 1404443.75,
+   "n": 3,
+   "convocatorias": 3,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 1375000.0,
+    "pct_del_beneficiario": 97.9
+   }
+  },
+  {
+   "pos": 55,
+   "nif": "B02680841",
+   "nombre": "SOCIETE FITNESS CASTILLO ESPAGNE SL",
+   "tipo": "empresa_deportiva",
+   "deporte": "halterofilia_lucha",
+   "importe": 1388787.82,
+   "n": 5,
+   "convocatorias": 5,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE INDUSTRIA Y TURISMO",
+    "nivel3": "COMPAÑÍA ESPAÑOLA DE REAFIANZAMIENTO, S.M.E., S.A.",
+    "importe": 748482.73,
+    "pct_del_beneficiario": 53.89
+   }
+  },
+  {
+   "pos": 56,
+   "nif": "G28557056",
+   "nombre": "FEDERACION ESPAÑOLA DE KARATE",
+   "tipo": "federacion_nacional",
+   "deporte": "artes_marciales",
+   "importe": 1341129.79,
+   "n": 15,
+   "convocatorias": 13,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 1214823.94,
+    "pct_del_beneficiario": 90.58
+   }
+  },
+  {
+   "pos": 57,
+   "nif": "Q2878027H",
+   "nombre": "REAL FEDERACION MOTOCICLISTA ESPAÑOLA",
+   "tipo": "federacion_nacional",
+   "deporte": "motor",
+   "importe": 1294389.3,
+   "n": 5,
+   "convocatorias": 4,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 1294389.3,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 58,
+   "nif": "B96393020",
+   "nombre": "AGRUPACIO DE COMERCIANTS ESPORT DEVAL S.L.",
+   "tipo": "empresa_deportiva",
+   "deporte": "sin_clasificar",
+   "importe": 1290000.0,
+   "n": 6,
+   "convocatorias": 2,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE ECONOMÍA, COMERCIO Y EMPRESA",
+    "nivel3": "INSTITUTO DE CRÉDITO OFICIAL",
+    "importe": 1290000.0,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 59,
+   "nif": "Q2878017I",
+   "nombre": "REAL FEDERACION ESPAÑOLA DE FUTBOL",
+   "tipo": "federacion_nacional",
+   "deporte": "futbol",
+   "importe": 1266892.89,
+   "n": 6,
+   "convocatorias": 5,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 1221892.89,
+    "pct_del_beneficiario": 96.45
+   }
+  },
+  {
+   "pos": 60,
+   "nif": "A22145601",
+   "nombre": "BALONCESTO FUENLABRADA S.A.D.",
+   "tipo": "sad",
+   "deporte": "baloncesto",
+   "importe": 1250000.0,
+   "n": 1,
+   "convocatorias": 1,
+   "organo_principal": {
+    "nivel1": "LOCAL",
+    "nivel2": "FUENLABRADA",
+    "nivel3": "O.A PATRONATO MUNICIPAL DE DEPORTES",
+    "importe": 1250000.0,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 61,
+   "nif": "Q5856227C",
+   "nombre": "FEDERACIO CATALANA DE VELA",
+   "tipo": "federacion_autonomica",
+   "deporte": "vela_nautica",
+   "importe": 1244347.2,
+   "n": 5,
+   "convocatorias": 4,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CATALUÑA",
+    "nivel3": "CONSELL CATALÀ DE L'ESPORT",
+    "importe": 742347.2,
+    "pct_del_beneficiario": 59.66
+   }
+  },
+  {
+   "pos": 62,
+   "nif": "A50913680",
+   "nombre": "BASKET ZARAGOZA 2002 SAD",
+   "tipo": "sad",
+   "deporte": "baloncesto",
+   "importe": 1230844.63,
+   "n": 4,
+   "convocatorias": 4,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "ARAGÓN",
+    "nivel3": "D. GRAL. DE DEPORTE",
+    "importe": 484643.28,
+    "pct_del_beneficiario": 39.37
+   }
+  },
+  {
+   "pos": 63,
+   "nif": "B56358708",
+   "nombre": "INACUA CENTROS DEPORTIVOS SL",
+   "tipo": "empresa_deportiva",
+   "deporte": "sin_clasificar",
+   "importe": 1217524.12,
+   "n": 1,
+   "convocatorias": 1,
+   "organo_principal": {
+    "nivel1": "LOCAL",
+    "nivel2": "MURCIA",
+    "nivel3": "AYUNTAMIENTO DE MURCIA",
+    "importe": 1217524.12,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 64,
+   "nif": "B97926935",
+   "nombre": "COMPLEJO DEPORTIVO ALFAFAR S.L.",
+   "tipo": "empresa_deportiva",
+   "deporte": "sin_clasificar",
+   "importe": 1200000.0,
+   "n": 1,
+   "convocatorias": 1,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE ECONOMÍA, COMERCIO Y EMPRESA",
+    "nivel3": "INSTITUTO DE CRÉDITO OFICIAL",
+    "importe": 1200000.0,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 65,
+   "nif": "B04996534",
+   "nombre": "PDB SPORTS SL",
+   "tipo": "empresa_deportiva",
+   "deporte": "sin_clasificar",
+   "importe": 1198913.34,
+   "n": 2,
+   "convocatorias": 2,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "ANDALUCÍA",
+    "nivel3": "CONSEJERÍA DE TURISMO Y ANDALUCÍA EXTERIOR",
+    "importe": 1186913.34,
+    "pct_del_beneficiario": 99.0
+   }
+  },
+  {
+   "pos": 66,
+   "nif": "A09012428",
+   "nombre": "BURGOS CLUB DE FUTBOL SAD",
+   "tipo": "sad",
+   "deporte": "futbol",
+   "importe": 1168000.0,
+   "n": 3,
+   "convocatorias": 3,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE INDUSTRIA Y TURISMO",
+    "nivel3": "COMPAÑÍA ESPAÑOLA DE REAFIANZAMIENTO, S.M.E., S.A.",
+    "importe": 1125000.0,
+    "pct_del_beneficiario": 96.32
+   }
+  },
+  {
+   "pos": 67,
+   "nif": "A50034107",
+   "nombre": "REAL ZARAGOZA, S.A.D.",
+   "tipo": "sad",
+   "deporte": "sin_clasificar",
+   "importe": 1157503.9,
+   "n": 3,
+   "convocatorias": 3,
+   "organo_principal": {
+    "nivel1": "LOCAL",
+    "nivel2": "DIPUTACIÓN PROV. DE ZARAGOZA",
+    "nivel3": "DIPUTACIÓN PROVINCIAL DE ZARAGOZA",
+    "importe": 1000000.0,
+    "pct_del_beneficiario": 86.39
+   }
+  },
+  {
+   "pos": 68,
+   "nif": "G35313790",
+   "nombre": "FEDERACION CANARIA DE VOLEIBOL",
+   "tipo": "federacion_autonomica",
+   "deporte": "voleibol",
+   "importe": 1150922.76,
+   "n": 9,
+   "convocatorias": 9,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CANARIAS",
+    "nivel3": "CONSEJERÍA DE EDUCACIÓN, FORMACIÓN PROFESIONAL, ACTIVIDAD FÍSICA Y DEPORTES",
+    "importe": 1139471.76,
+    "pct_del_beneficiario": 99.01
+   }
+  },
+  {
+   "pos": 69,
+   "nif": "Q2878007J",
+   "nombre": "FED. ESP. DE BEISBOL",
+   "tipo": "federacion_nacional",
+   "deporte": "beisbol_softbol",
+   "importe": 1122064.66,
+   "n": 9,
+   "convocatorias": 7,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 929564.66,
+    "pct_del_beneficiario": 82.84
+   }
+  },
+  {
+   "pos": 70,
+   "nif": "V50120211",
+   "nombre": "FEDERACION ARAGONESA DE MONTAÑISMO",
+   "tipo": "federacion_autonomica",
+   "deporte": "montana_escalada",
+   "importe": 1116250.51,
+   "n": 11,
+   "convocatorias": 10,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "ARAGÓN",
+    "nivel3": "DIRECCIÓN GENERAL DE INTERIOR Y EMERGENCIAS",
+    "importe": 320000.0,
+    "pct_del_beneficiario": 28.67
+   }
+  },
+  {
+   "pos": 71,
+   "nif": "G38048161",
+   "nombre": "FEDERACIÓN DE LUCHA CANARIA",
+   "tipo": "federacion_autonomica",
+   "deporte": "halterofilia_lucha",
+   "importe": 1090236.7,
+   "n": 5,
+   "convocatorias": 4,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CANARIAS",
+    "nivel3": "CONSEJERÍA DE EDUCACIÓN, FORMACIÓN PROFESIONAL, ACTIVIDAD FÍSICA Y DEPORTES",
+    "importe": 1065000.0,
+    "pct_del_beneficiario": 97.69
+   }
+  },
+  {
+   "pos": 72,
+   "nif": "G08533689",
+   "nombre": "CLUB NATACIO BARCELONA",
+   "tipo": "club",
+   "deporte": "natacion",
+   "importe": 1082920.0,
+   "n": 7,
+   "convocatorias": 4,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CATALUÑA",
+    "nivel3": "CONSELL CATALÀ DE L'ESPORT",
+    "importe": 1037920.0,
+    "pct_del_beneficiario": 95.84
+   }
+  },
+  {
+   "pos": 73,
+   "nif": "G06627335",
+   "nombre": "FEDERACION EXTREMEÑA DE FUTBOL",
+   "tipo": "federacion_autonomica",
+   "deporte": "futbol",
+   "importe": 1042900.0,
+   "n": 2,
+   "convocatorias": 2,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "EXTREMADURA",
+    "nivel3": "DIRECCIÓN GENERAL DE DEPORTES",
+    "importe": 984900.0,
+    "pct_del_beneficiario": 94.44
+   }
+  },
+  {
+   "pos": 74,
+   "nif": "B88559281",
+   "nombre": "ESC SPORT CENTER 2020, S.L.",
+   "tipo": "empresa_deportiva",
+   "deporte": "sin_clasificar",
+   "importe": 1040650.0,
+   "n": 4,
+   "convocatorias": 4,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE INDUSTRIA Y TURISMO",
+    "nivel3": "COMPAÑÍA ESPAÑOLA DE REAFIANZAMIENTO, S.M.E., S.A.",
+    "importe": 1012500.0,
+    "pct_del_beneficiario": 97.29
+   }
+  },
+  {
+   "pos": 75,
+   "nif": "G21687132",
+   "nombre": "FEDERACIÓ CATALANA ESPORTS D'HIVERN",
+   "tipo": "federacion_autonomica",
+   "deporte": "esqui_invierno",
+   "importe": 1036190.64,
+   "n": 3,
+   "convocatorias": 3,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CATALUÑA",
+    "nivel3": "CONSELL CATALÀ DE L'ESPORT",
+    "importe": 1036190.64,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 76,
+   "nif": "A08084824",
+   "nombre": "INSTALACIONES DEPORTIVAS SA",
+   "tipo": "empresa_deportiva",
+   "deporte": "sin_clasificar",
+   "importe": 1017285.0,
+   "n": 2,
+   "convocatorias": 2,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CATALUÑA",
+    "nivel3": "INSTITUT CATALÀ DE FINANCES (ICF)",
+    "importe": 1000000.0,
+    "pct_del_beneficiario": 98.3
+   }
+  },
+  {
+   "pos": 77,
+   "nif": "G41195363",
+   "nombre": "FEDERACION ANDALUZA DE NATACION",
+   "tipo": "federacion_autonomica",
+   "deporte": "natacion",
+   "importe": 974031.53,
+   "n": 12,
+   "convocatorias": 10,
+   "organo_principal": {
+    "nivel1": "LOCAL",
+    "nivel2": "MÁLAGA",
+    "nivel3": "AYUNTAMIENTO DE MÁLAGA",
+    "importe": 479000.0,
+    "pct_del_beneficiario": 49.18
+   }
+  },
+  {
+   "pos": 78,
+   "nif": "Q3900780B",
+   "nombre": "CONSORCIO INFRAESTRUCTURAS DEPORTIVAS DE CANTABRIA",
+   "tipo": "entidad_publica",
+   "deporte": "sin_clasificar",
+   "importe": 935000.0,
+   "n": 1,
+   "convocatorias": 1,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CANTABRIA",
+    "nivel3": "CONSEJERÍA DE CULTURA, TURISMO Y DEPORTE",
+    "importe": 935000.0,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 79,
+   "nif": "V15734205",
+   "nombre": "FEDERACION ESPAÑOLA DE SURF",
+   "tipo": "federacion_nacional",
+   "deporte": "vela_nautica",
+   "importe": 925740.65,
+   "n": 12,
+   "convocatorias": 9,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 925740.65,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 80,
+   "nif": "G76371350",
+   "nombre": "CLUB DEPORTIVO VOLEIBOL GUAGUAS",
+   "tipo": "club",
+   "deporte": "voleibol",
+   "importe": 900715.82,
+   "n": 16,
+   "convocatorias": 15,
+   "organo_principal": {
+    "nivel1": "LOCAL",
+    "nivel2": "CABILDO INSULAR DE GRAN CANARIA",
+    "nivel3": "INSTITUTO INS. DE DEPORTES DE GRAN CANARIA",
+    "importe": 324000.0,
+    "pct_del_beneficiario": 35.97
+   }
+  },
+  {
+   "pos": 81,
+   "nif": "G58155813",
+   "nombre": "UNIO FED ESPORTIVES CATALANES",
+   "tipo": "federacion_autonomica",
+   "deporte": "sin_clasificar",
+   "importe": 870475.2,
+   "n": 3,
+   "convocatorias": 3,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CATALUÑA",
+    "nivel3": "CONSELL CATALÀ DE L'ESPORT",
+    "importe": 808000.0,
+    "pct_del_beneficiario": 92.82
+   }
+  },
+  {
+   "pos": 82,
+   "nif": "B42574947",
+   "nombre": "JD CANARY ISLANDS SPORTS SL",
+   "tipo": "empresa_deportiva",
+   "deporte": "sin_clasificar",
+   "importe": 869221.47,
+   "n": 1,
+   "convocatorias": 1,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE HACIENDA",
+    "nivel3": "AGENCIA ESTATAL DE ADMINISTRACIÓN TRIBUTARIA",
+    "importe": 869221.47,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 83,
+   "nif": "G36386100",
+   "nombre": "FUNDACIÓN NAUTICO-DEPORTIVA RIAS DO SUR",
+   "tipo": "otro",
+   "deporte": "vela_nautica",
+   "importe": 867539.54,
+   "n": 2,
+   "convocatorias": 2,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+    "nivel3": "INSTITUTO PARA LA DIVERSIFICACIÓN Y AHORRO DE LA ENERGÍA (IDAE)",
+    "importe": 467539.54,
+    "pct_del_beneficiario": 53.89
+   }
+  },
+  {
+   "pos": 84,
+   "nif": "G35221993",
+   "nombre": "FEDERACION CANARIA DE BALONMANO",
+   "tipo": "federacion_autonomica",
+   "deporte": "balonmano",
+   "importe": 855843.32,
+   "n": 12,
+   "convocatorias": 11,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CANARIAS",
+    "nivel3": "CONSEJERÍA DE EDUCACIÓN, FORMACIÓN PROFESIONAL, ACTIVIDAD FÍSICA Y DEPORTES",
+    "importe": 808868.55,
+    "pct_del_beneficiario": 94.51
+   }
+  },
+  {
+   "pos": 85,
+   "nif": "Q0801097G",
+   "nombre": "FEDERACIÓN ESP. DE PENTATLON MODERNO",
+   "tipo": "federacion_nacional",
+   "deporte": "otros_deportes",
+   "importe": 847537.29,
+   "n": 13,
+   "convocatorias": 10,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 794426.29,
+    "pct_del_beneficiario": 93.73
+   }
+  },
+  {
+   "pos": 86,
+   "nif": "G07897432",
+   "nombre": "ASSOCIACIO ESPORTIVA PALMA DE MALLORCA F",
+   "tipo": "club",
+   "deporte": "sin_clasificar",
+   "importe": 829083.65,
+   "n": 20,
+   "convocatorias": 6,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "ILLES BALEARS",
+    "nivel3": "DIRECCIÓN GENERAL DE DEPORTES",
+    "importe": 526083.65,
+    "pct_del_beneficiario": 63.45
+   }
+  },
+  {
+   "pos": 87,
+   "nif": "G29954989",
+   "nombre": "CLUB MELILLA BALONCESTO",
+   "tipo": "club",
+   "deporte": "baloncesto",
+   "importe": 827908.34,
+   "n": 6,
+   "convocatorias": 4,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CIUDAD AUTÓNOMA DE MELILLA",
+    "nivel3": "CONSEJERÍA DE EDUCACIÓN, JUVENTUD Y DEPORTES",
+    "importe": 827908.34,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 88,
+   "nif": "G65123143",
+   "nombre": "FEDERACIÓ CATALANA DE NATACIÓ",
+   "tipo": "federacion_autonomica",
+   "deporte": "natacion",
+   "importe": 824305.2,
+   "n": 7,
+   "convocatorias": 6,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CATALUÑA",
+    "nivel3": "CONSELL CATALÀ DE L'ESPORT",
+    "importe": 755459.2,
+    "pct_del_beneficiario": 91.65
+   }
+  },
+  {
+   "pos": 89,
+   "nif": "G25742867",
+   "nombre": "FORÇA LLEIDA CLUB ESPORTIU",
+   "tipo": "club",
+   "deporte": "sin_clasificar",
+   "importe": 812000.0,
+   "n": 5,
+   "convocatorias": 5,
+   "organo_principal": {
+    "nivel1": "LOCAL",
+    "nivel2": "DIPUTACIÓN PROV. DE LLEIDA",
+    "nivel3": "DIPUTACIÓN PROVINCIAL DE LLEIDA",
+    "importe": 500000.0,
+    "pct_del_beneficiario": 61.58
+   }
+  },
+  {
+   "pos": 90,
+   "nif": "G52025046",
+   "nombre": "CLUB DEPORTIVO ELEMENTAL MELISTAR",
+   "tipo": "club",
+   "deporte": "sin_clasificar",
+   "importe": 804630.17,
+   "n": 4,
+   "convocatorias": 3,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CIUDAD AUTÓNOMA DE MELILLA",
+    "nivel3": "CONSEJERÍA DE EDUCACIÓN, JUVENTUD Y DEPORTES",
+    "importe": 504630.17,
+    "pct_del_beneficiario": 62.72
+   }
+  },
+  {
+   "pos": 91,
+   "nif": "B18592881",
+   "nombre": "GRANADA CLUB DE GOLF LOS COSARIOS SL",
+   "tipo": "sad",
+   "deporte": "golf",
+   "importe": 792971.92,
+   "n": 1,
+   "convocatorias": 1,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "ANDALUCÍA",
+    "nivel3": "CONSEJERÍA DE TURISMO Y ANDALUCÍA EXTERIOR",
+    "importe": 792971.92,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 92,
+   "nif": "G75957324",
+   "nombre": "FEDERACIO CATALANA DE TENNIS",
+   "tipo": "federacion_autonomica",
+   "deporte": "tenis",
+   "importe": 788390.2,
+   "n": 4,
+   "convocatorias": 4,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CATALUÑA",
+    "nivel3": "CONSELL CATALÀ DE L'ESPORT",
+    "importe": 738390.2,
+    "pct_del_beneficiario": 93.66
+   }
+  },
+  {
+   "pos": 93,
+   "nif": "G08665432",
+   "nombre": "FEDERACIO CATALANA DE BASQUETBOL",
+   "tipo": "federacion_autonomica",
+   "deporte": "baloncesto",
+   "importe": 779290.4,
+   "n": 6,
+   "convocatorias": 5,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CATALUÑA",
+    "nivel3": "CONSELL CATALÀ DE L'ESPORT",
+    "importe": 720455.2,
+    "pct_del_beneficiario": 92.45
+   }
+  },
+  {
+   "pos": 94,
+   "nif": "Q5855022I",
+   "nombre": "FEDERACIO CATALANA DE FUTBOL",
+   "tipo": "federacion_autonomica",
+   "deporte": "futbol",
+   "importe": 771454.4,
+   "n": 2,
+   "convocatorias": 2,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CATALUÑA",
+    "nivel3": "CONSELL CATALÀ DE L'ESPORT",
+    "importe": 771454.4,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 95,
+   "nif": "G81110413",
+   "nombre": "FED. ESP. DE DEPORTES PARA CIEGOS",
+   "tipo": "federacion_nacional",
+   "deporte": "deporte_adaptado",
+   "importe": 759740.7,
+   "n": 6,
+   "convocatorias": 4,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 759740.7,
+    "pct_del_beneficiario": 100.0
+   }
+  },
+  {
+   "pos": 96,
+   "nif": "A08147555",
+   "nombre": "CENTRO CULT.Y DEPORT.XALOC,SA.",
+   "tipo": "empresa_deportiva",
+   "deporte": "sin_clasificar",
+   "importe": 753990.68,
+   "n": 5,
+   "convocatorias": 5,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CATALUÑA",
+    "nivel3": "SERVICIO PÚBLICO DE EMPLEO DE CATALUÑA",
+    "importe": 679087.68,
+    "pct_del_beneficiario": 90.07
+   }
+  },
+  {
+   "pos": 97,
+   "nif": "G52020187",
+   "nombre": "FUNDACIÓN SOCIO CULTURAL Y DEPORTIVA FMF",
+   "tipo": "otro",
+   "deporte": "sin_clasificar",
+   "importe": 749050.15,
+   "n": 22,
+   "convocatorias": 5,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE TRABAJO Y ECONOMÍA SOCIAL",
+    "nivel3": "DIRECCIÓN PROVINCIAL DEL SEPE DE MELILLA",
+    "importe": 679050.15,
+    "pct_del_beneficiario": 90.65
+   }
+  },
+  {
+   "pos": 98,
+   "nif": "G08895120",
+   "nombre": "FEDERACIO CATALANA D'ATLETISME",
+   "tipo": "federacion_autonomica",
+   "deporte": "atletismo",
+   "importe": 747996.0,
+   "n": 3,
+   "convocatorias": 3,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CATALUÑA",
+    "nivel3": "CONSELL CATALÀ DE L'ESPORT",
+    "importe": 688996.0,
+    "pct_del_beneficiario": 92.11
+   }
+  },
+  {
+   "pos": 99,
+   "nif": "G11903135",
+   "nombre": "CLUB NATACION CABALLA",
+   "tipo": "club",
+   "deporte": "natacion",
+   "importe": 744643.15,
+   "n": 4,
+   "convocatorias": 4,
+   "organo_principal": {
+    "nivel1": "AUTONOMICA",
+    "nivel2": "CIUDAD AUTÓNOMA DE CEUTA",
+    "nivel3": "INSTITUTO CEUTÍ DE DEPORTES",
+    "importe": 581797.47,
+    "pct_del_beneficiario": 78.13
+   }
+  },
+  {
+   "pos": 100,
+   "nif": "Q2878037G",
+   "nombre": "FED. ESP. DE SALVAMENTO Y SOCORRISMO",
+   "tipo": "federacion_nacional",
+   "deporte": "vela_nautica",
+   "importe": 729877.57,
+   "n": 14,
+   "convocatorias": 13,
+   "organo_principal": {
+    "nivel1": "ESTADO",
+    "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+    "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+    "importe": 508823.24,
+    "pct_del_beneficiario": 69.71
+   }
+  }
+ ]
+}

@@ -1,8 +1,8 @@
-name: Actualizar datos y publicar
+name: Publicar en GitHub Pages
+
+# No se regenera en CI: depende de la sqlite local del episodio cci-09. Solo publica site/.
 
 on:
-  schedule:
-    - cron: "0 6 * * *"   # cada día a las 06:00 UTC
   push:
     branches: [main]
   workflow_dispatch:
@@ -27,8 +27,6 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Descargar y validar datos
-        run: python scripts/actualizar.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

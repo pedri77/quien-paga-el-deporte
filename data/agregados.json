@@ -1,0 +1,368 @@
+{
+ "meta": {
+  "fuente": "BDNS – Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas (IGAE, Ministerio de Hacienda), vía descarga del episodio cci-09 «¿Quién cobra?»",
+  "url": "https://www.infosubvenciones.es/bdnstrans/api/concesiones/busqueda",
+  "periodo": "2024-2025 (año de concesión)",
+  "unidad": "EUR",
+  "descripcion": "Totales anuales de subvenciones al deporte: por administración, tipo de beneficiario, concentración y fútbol profesional frente al resto",
+  "metodo": "Beneficiario identificado como deportivo por el nombre (federaciones, clubes, SAD, patronatos, empresas deportivas) o, como señal secundaria, por convocatoria con sectores CNAE exclusivamente 93.1x.",
+  "limite": "Sólo entidades jurídicas; sólo subvenciones publicadas en BDNS (no contratos, ni cesiones de instalaciones, ni gasto directo). Clasificador por nombre con error medido en data/informe.md.",
+  "tipos_beneficiario": {
+   "federacion_nacional": "Federación española",
+   "federacion_autonomica": "Federación autonómica o territorial",
+   "club": "Club o asociación deportiva",
+   "sad": "Sociedad anónima deportiva / club mercantil",
+   "empresa_deportiva": "Empresa deportiva (gestión, instalaciones, gimnasios, eventos)",
+   "entidad_publica": "Entidad pública deportiva (patronatos, institutos, consorcios, CAR)",
+   "otro": "Otras entidades deportivas (fundaciones, COE/CPE, asociaciones sin forma de club)"
+  },
+  "validacion_clasificador": {
+   "positivos_revisados": 50,
+   "positivos_correctos": 49,
+   "precision_pct": 98.0,
+   "negativos_ambiguos_revisados": 50,
+   "negativos_que_si_eran_deportivos": 11,
+   "falsos_negativos_entre_ambiguos_pct": 22.0,
+   "entidades_cuya_clasificacion_cambio_desde_el_muestreo": 0,
+   "poblacion": {
+    "positivos_por_nombre": 20815,
+    "negativos_ambiguos": 1950,
+    "negativos_ambiguos_importe": 59045908.39,
+    "positivos_por_nombre_importe": 1139117123.21
+   },
+   "nota": "Muestra fija de 50 positivos + 50 negativos ambiguos (random.Random(18)); veredicto humano en VALIDACION del script. Los importes de 'poblacion' suman 2024+2025."
+  }
+ },
+ "2024": {
+  "total": {
+   "importe": 475136357.35,
+   "concesiones": 34493,
+   "entidades": 17435,
+   "convocatorias": 6629,
+   "pct_sobre_todas_las_subvenciones_a_entidades": 1.17,
+   "universo_bdns_entidades": {
+    "importe": 40749340987.2,
+    "concesiones": 1189396
+   }
+  },
+  "por_senal": [
+   {
+    "senal": "nombre",
+    "n": 34118,
+    "importe": 471327080.19,
+    "pct_importe": 99.2
+   },
+   {
+    "senal": "solo_convocatoria_931",
+    "n": 375,
+    "importe": 3809277.16,
+    "pct_importe": 0.8
+   }
+  ],
+  "por_instrumento": [
+   {
+    "instrumento": "SUBVENCIÓN y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN",
+    "n": 34229,
+    "importe": 447701604.46,
+    "pct_importe": 94.23
+   },
+   {
+    "instrumento": "GARANTÍA",
+    "n": 236,
+    "importe": 25598372.48,
+    "pct_importe": 5.39
+   },
+   {
+    "instrumento": "PRÉSTAMO",
+    "n": 5,
+    "importe": 1116687.51,
+    "pct_importe": 0.24
+   },
+   {
+    "instrumento": "VENTAJA FISCAL",
+    "n": 19,
+    "importe": 658203.16,
+    "pct_importe": 0.14
+   },
+   {
+    "instrumento": "OTROS INSTRUMENTOS DE AYUDA",
+    "n": 4,
+    "importe": 61489.74,
+    "pct_importe": 0.01
+   }
+  ],
+  "por_administracion": [
+   {
+    "tipo_admin": "L",
+    "nombre": "Entidades locales",
+    "n": 23625,
+    "importe": 217536619.37,
+    "pct_importe": 45.78
+   },
+   {
+    "tipo_admin": "A",
+    "nombre": "Comunidades autónomas",
+    "n": 9222,
+    "importe": 168568879.52,
+    "pct_importe": 35.48
+   },
+   {
+    "tipo_admin": "C",
+    "nombre": "Estado",
+    "n": 1580,
+    "importe": 88638183.38,
+    "pct_importe": 18.66
+   },
+   {
+    "tipo_admin": "O",
+    "nombre": "Otros",
+    "n": 66,
+    "importe": 392675.08,
+    "pct_importe": 0.08
+   }
+  ],
+  "por_tipo_beneficiario": [
+   {
+    "tipo": "federacion_nacional",
+    "nombre": "Federación española",
+    "n": 442,
+    "entidades": 67,
+    "importe": 59256535.89,
+    "pct_importe": 12.47
+   },
+   {
+    "tipo": "federacion_autonomica",
+    "nombre": "Federación autonómica o territorial",
+    "n": 2963,
+    "entidades": 892,
+    "importe": 94807031.0,
+    "pct_importe": 19.95
+   },
+   {
+    "tipo": "club",
+    "nombre": "Club o asociación deportiva",
+    "n": 27626,
+    "entidades": 14343,
+    "importe": 218099349.45,
+    "pct_importe": 45.9
+   },
+   {
+    "tipo": "sad",
+    "nombre": "Sociedad anónima deportiva / club mercantil",
+    "n": 475,
+    "entidades": 279,
+    "importe": 16139594.65,
+    "pct_importe": 3.4
+   },
+   {
+    "tipo": "empresa_deportiva",
+    "nombre": "Empresa deportiva (gestión, instalaciones, gimnasios, eventos)",
+    "n": 1567,
+    "entidades": 1072,
+    "importe": 62084200.45,
+    "pct_importe": 13.07
+   },
+   {
+    "tipo": "entidad_publica",
+    "nombre": "Entidad pública deportiva (patronatos, institutos, consorcios, CAR)",
+    "n": 239,
+    "entidades": 180,
+    "importe": 4532990.61,
+    "pct_importe": 0.95
+   },
+   {
+    "tipo": "otro",
+    "nombre": "Otras entidades deportivas (fundaciones, COE/CPE, asociaciones sin forma de club)",
+    "n": 1181,
+    "entidades": 602,
+    "importe": 20216655.3,
+    "pct_importe": 4.25
+   }
+  ],
+  "concentracion": {
+   "entidades": 17435,
+   "top_1pct_entidades": 174,
+   "top_1pct_importe": 178105797.67,
+   "top_1pct_pct": 37.49,
+   "top_10_importe": 46627110.21,
+   "top_10_pct": 9.81,
+   "mediana_por_entidad": 4787.1,
+   "media_por_entidad": 27251.87
+  },
+  "futbol_vs_resto": {
+   "sad_futbol": 1738311.24,
+   "sad_futbol_pct": 0.37,
+   "sad_otros_deportes": 14401283.41,
+   "futbol_total_todos_los_tipos": 43145242.02,
+   "futbol_total_pct": 9.08,
+   "resto": 431991115.33,
+   "nota": "«SAD fútbol» = entidades con forma mercantil (SAD/SA/SL) cuyo nombre indica fútbol. Las SAD de fútbol sin «fútbol» en el nombre (p. ej. «REAL ZARAGOZA SAD») quedan en sad_otros."
+  }
+ },
+ "2025": {
+  "total": {
+   "importe": 614877127.65,
+   "concesiones": 35692,
+   "entidades": 17581,
+   "convocatorias": 6438,
+   "pct_sobre_todas_las_subvenciones_a_entidades": 1.37,
+   "universo_bdns_entidades": {
+    "importe": 44810695113.02,
+    "concesiones": 992042
+   }
+  },
+  "por_senal": [
+   {
+    "senal": "nombre",
+    "n": 35031,
+    "importe": 610628190.02,
+    "pct_importe": 99.31
+   },
+   {
+    "senal": "solo_convocatoria_931",
+    "n": 661,
+    "importe": 4248937.63,
+    "pct_importe": 0.69
+   }
+  ],
+  "por_instrumento": [
+   {
+    "instrumento": "SUBVENCIÓN y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN",
+    "n": 35408,
+    "importe": 567381625.84,
+    "pct_importe": 92.28
+   },
+   {
+    "instrumento": "GARANTÍA",
+    "n": 231,
+    "importe": 37602363.18,
+    "pct_importe": 6.12
+   },
+   {
+    "instrumento": "PRÉSTAMO",
+    "n": 19,
+    "importe": 6100107.85,
+    "pct_importe": 0.99
+   },
+   {
+    "instrumento": "VENTAJA FISCAL",
+    "n": 19,
+    "importe": 3436487.28,
+    "pct_importe": 0.56
+   },
+   {
+    "instrumento": "OTROS INSTRUMENTOS DE AYUDA",
+    "n": 15,
+    "importe": 356543.5,
+    "pct_importe": 0.06
+   }
+  ],
+  "por_administracion": [
+   {
+    "tipo_admin": "A",
+    "nombre": "Comunidades autónomas",
+    "n": 9598,
+    "importe": 211403244.16,
+    "pct_importe": 34.38
+   },
+   {
+    "tipo_admin": "L",
+    "nombre": "Entidades locales",
+    "n": 23947,
+    "importe": 208036490.85,
+    "pct_importe": 33.83
+   },
+   {
+    "tipo_admin": "C",
+    "nombre": "Estado",
+    "n": 2097,
+    "importe": 195281321.16,
+    "pct_importe": 31.76
+   },
+   {
+    "tipo_admin": "O",
+    "nombre": "Otros",
+    "n": 50,
+    "importe": 156071.48,
+    "pct_importe": 0.03
+   }
+  ],
+  "por_tipo_beneficiario": [
+   {
+    "tipo": "federacion_nacional",
+    "nombre": "Federación española",
+    "n": 725,
+    "entidades": 68,
+    "importe": 149626193.21,
+    "pct_importe": 24.33
+   },
+   {
+    "tipo": "federacion_autonomica",
+    "nombre": "Federación autonómica o territorial",
+    "n": 3066,
+    "entidades": 923,
+    "importe": 101391189.3,
+    "pct_importe": 16.49
+   },
+   {
+    "tipo": "club",
+    "nombre": "Club o asociación deportiva",
+    "n": 28243,
+    "entidades": 14287,
+    "importe": 233841933.42,
+    "pct_importe": 38.03
+   },
+   {
+    "tipo": "sad",
+    "nombre": "Sociedad anónima deportiva / club mercantil",
+    "n": 437,
+    "entidades": 263,
+    "importe": 28198547.92,
+    "pct_importe": 4.59
+   },
+   {
+    "tipo": "empresa_deportiva",
+    "nombre": "Empresa deportiva (gestión, instalaciones, gimnasios, eventos)",
+    "n": 1577,
+    "entidades": 1108,
+    "importe": 71880678.09,
+    "pct_importe": 11.69
+   },
+   {
+    "tipo": "entidad_publica",
+    "nombre": "Entidad pública deportiva (patronatos, institutos, consorcios, CAR)",
+    "n": 434,
+    "entidades": 305,
+    "importe": 7389045.97,
+    "pct_importe": 1.2
+   },
+   {
+    "tipo": "otro",
+    "nombre": "Otras entidades deportivas (fundaciones, COE/CPE, asociaciones sin forma de club)",
+    "n": 1210,
+    "entidades": 627,
+    "importe": 22549539.74,
+    "pct_importe": 3.67
+   }
+  ],
+  "concentracion": {
+   "entidades": 17581,
+   "top_1pct_entidades": 176,
+   "top_1pct_importe": 302057414.37,
+   "top_1pct_pct": 49.12,
+   "top_10_importe": 93869953.31,
+   "top_10_pct": 15.27,
+   "mediana_por_entidad": 4725.63,
+   "media_por_entidad": 34973.96
+  },
+  "futbol_vs_resto": {
+   "sad_futbol": 3104017.63,
+   "sad_futbol_pct": 0.5,
+   "sad_otros_deportes": 25094530.29,
+   "futbol_total_todos_los_tipos": 51789687.46,
+   "futbol_total_pct": 8.42,
+   "resto": 563087440.19,
+   "nota": "«SAD fútbol» = entidades con forma mercantil (SAD/SA/SL) cuyo nombre indica fútbol. Las SAD de fútbol sin «fútbol» en el nombre (p. ej. «REAL ZARAGOZA SAD») quedan en sad_otros."
+  }
+ }
+}

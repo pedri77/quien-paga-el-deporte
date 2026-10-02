@@ -1,0 +1,515 @@
+{
+ "meta": {
+  "fuente": "BDNS – Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas (IGAE, Ministerio de Hacienda), vía descarga del episodio cci-09 «¿Quién cobra?»",
+  "url": "https://www.infosubvenciones.es/bdnstrans/api/concesiones/busqueda",
+  "periodo": "2024-2025 (año de concesión)",
+  "unidad": "EUR",
+  "descripcion": "Top 25 órganos convocantes (nivel1/nivel2/nivel3) por importe concedido a beneficiarios deportivos",
+  "metodo": "Beneficiario identificado como deportivo por el nombre (federaciones, clubes, SAD, patronatos, empresas deportivas) o, como señal secundaria, por convocatoria con sectores CNAE exclusivamente 93.1x.",
+  "limite": "Sólo entidades jurídicas; sólo subvenciones publicadas en BDNS (no contratos, ni cesiones de instalaciones, ni gasto directo). Clasificador por nombre con error medido en data/informe.md."
+ },
+ "2024": [
+  {
+   "pos": 1,
+   "nivel1": "ESTADO",
+   "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+   "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+   "n": 335,
+   "entidades": 70,
+   "importe": 51809137.44,
+   "pct_importe": 10.9
+  },
+  {
+   "pos": 2,
+   "nivel1": "AUTONOMICA",
+   "nivel2": "CATALUÑA",
+   "nivel3": "CONSELL CATALÀ DE L'ESPORT",
+   "n": 461,
+   "entidades": 402,
+   "importe": 26321913.27,
+   "pct_importe": 5.54
+  },
+  {
+   "pos": 3,
+   "nivel1": "AUTONOMICA",
+   "nivel2": "CANARIAS",
+   "nivel3": "CONSEJERÍA DE EDUCACIÓN, FORMACIÓN PROFESIONAL, ACTIVIDAD FÍSICA Y DEPORTES",
+   "n": 739,
+   "entidades": 294,
+   "importe": 17539508.42,
+   "pct_importe": 3.69
+  },
+  {
+   "pos": 4,
+   "nivel1": "LOCAL",
+   "nivel2": "CABILDO INSULAR DE TENERIFE",
+   "nivel3": "CABILDO INSULAR DE TENERIFE",
+   "n": 562,
+   "entidades": 362,
+   "importe": 14461581.73,
+   "pct_importe": 3.04
+  },
+  {
+   "pos": 5,
+   "nivel1": "LOCAL",
+   "nivel2": "CABILDO INSULAR DE GRAN CANARIA",
+   "nivel3": "INSTITUTO INS. DE DEPORTES DE GRAN CANARIA",
+   "n": 696,
+   "entidades": 357,
+   "importe": 13348040.83,
+   "pct_importe": 2.81
+  },
+  {
+   "pos": 6,
+   "nivel1": "ESTADO",
+   "nivel2": "MINISTERIO DE INDUSTRIA Y TURISMO",
+   "nivel3": "COMPAÑÍA ESPAÑOLA DE REAFIANZAMIENTO, S.M.E., S.A.",
+   "n": 139,
+   "entidades": 108,
+   "importe": 13270775.09,
+   "pct_importe": 2.79
+  },
+  {
+   "pos": 7,
+   "nivel1": "ESTADO",
+   "nivel2": "MINISTERIO DE ECONOMÍA, COMERCIO Y EMPRESA",
+   "nivel3": "INSTITUTO DE CRÉDITO OFICIAL",
+   "n": 77,
+   "entidades": 68,
+   "importe": 11650512.0,
+   "pct_importe": 2.45
+  },
+  {
+   "pos": 8,
+   "nivel1": "AUTONOMICA",
+   "nivel2": "COMUNITAT VALENCIANA",
+   "nivel3": "SECRETARÍA AUTONÓMICA DE RELACIONES INSTITUCIONALES Y TRANSPARENCIA",
+   "n": 752,
+   "entidades": 520,
+   "importe": 10944944.48,
+   "pct_importe": 2.3
+  },
+  {
+   "pos": 9,
+   "nivel1": "AUTONOMICA",
+   "nivel2": "CIUDAD AUTÓNOMA DE MELILLA",
+   "nivel3": "CONSEJERÍA DE EDUCACIÓN, JUVENTUD Y DEPORTES",
+   "n": 269,
+   "entidades": 79,
+   "importe": 10079372.15,
+   "pct_importe": 2.12
+  },
+  {
+   "pos": 10,
+   "nivel1": "AUTONOMICA",
+   "nivel2": "CIUDAD AUTÓNOMA DE CEUTA",
+   "nivel3": "INSTITUTO CEUTÍ DE DEPORTES",
+   "n": 125,
+   "entidades": 78,
+   "importe": 9877289.65,
+   "pct_importe": 2.08
+  },
+  {
+   "pos": 11,
+   "nivel1": "AUTONOMICA",
+   "nivel2": "ANDALUCÍA",
+   "nivel3": "CONSEJERÍA DE CULTURA Y DEPORTE",
+   "n": 617,
+   "entidades": 545,
+   "importe": 8750475.38,
+   "pct_importe": 1.84
+  },
+  {
+   "pos": 12,
+   "nivel1": "AUTONOMICA",
+   "nivel2": "GALICIA",
+   "nivel3": "CONSELLERÍA DE PRESIDENCIA, JUSTICIA Y DEPORTES",
+   "n": 999,
+   "entidades": 966,
+   "importe": 8000311.6,
+   "pct_importe": 1.68
+  },
+  {
+   "pos": 13,
+   "nivel1": "LOCAL",
+   "nivel2": "LOGROÑO",
+   "nivel3": "AYUNTAMIENTO DE LOGROÑO",
+   "n": 2,
+   "entidades": 1,
+   "importe": 7400000.0,
+   "pct_importe": 1.56
+  },
+  {
+   "pos": 14,
+   "nivel1": "AUTONOMICA",
+   "nivel2": "COMUNIDAD DE MADRID",
+   "nivel3": "CONSEJERÍA DE CULTURA, TURISMO Y DEPORTE",
+   "n": 796,
+   "entidades": 680,
+   "importe": 7185208.8,
+   "pct_importe": 1.51
+  },
+  {
+   "pos": 15,
+   "nivel1": "LOCAL",
+   "nivel2": "MADRID",
+   "nivel3": "ÁREA DELEGADA DE DEPORTE",
+   "n": 785,
+   "entidades": 314,
+   "importe": 6893641.21,
+   "pct_importe": 1.45
+  },
+  {
+   "pos": 16,
+   "nivel1": "AUTONOMICA",
+   "nivel2": "CASTILLA Y LEÓN",
+   "nivel3": "CONSEJERÍA DE CULTURA, TURISMO Y DEPORTE",
+   "n": 241,
+   "entidades": 180,
+   "importe": 5808910.71,
+   "pct_importe": 1.22
+  },
+  {
+   "pos": 17,
+   "nivel1": "AUTONOMICA",
+   "nivel2": "COMUNITAT VALENCIANA",
+   "nivel3": "SECRETARÍA AUTONÓMICA DE CULTURA Y DEPORTE",
+   "n": 157,
+   "entidades": 58,
+   "importe": 5160756.12,
+   "pct_importe": 1.09
+  },
+  {
+   "pos": 18,
+   "nivel1": "AUTONOMICA",
+   "nivel2": "ARAGÓN",
+   "nivel3": "D. GRAL. DE DEPORTE",
+   "n": 210,
+   "entidades": 100,
+   "importe": 5109170.04,
+   "pct_importe": 1.08
+  },
+  {
+   "pos": 19,
+   "nivel1": "AUTONOMICA",
+   "nivel2": "EXTREMADURA",
+   "nivel3": "DIRECCIÓN GENERAL DE DEPORTES",
+   "n": 258,
+   "entidades": 126,
+   "importe": 4978972.4,
+   "pct_importe": 1.05
+  },
+  {
+   "pos": 20,
+   "nivel1": "LOCAL",
+   "nivel2": "DIPUTACIÓN PROV. DE VALENCIA",
+   "nivel3": "DIPUTACIÓN PROVINCIAL DE VALENCIA",
+   "n": 181,
+   "entidades": 153,
+   "importe": 4917982.38,
+   "pct_importe": 1.04
+  },
+  {
+   "pos": 21,
+   "nivel1": "AUTONOMICA",
+   "nivel2": "LA RIOJA",
+   "nivel3": "CONSEJERÍA DE CULTURA, TURISMO, DEPORTE Y JUVENTUD",
+   "n": 361,
+   "entidades": 140,
+   "importe": 4570069.12,
+   "pct_importe": 0.96
+  },
+  {
+   "pos": 22,
+   "nivel1": "LOCAL",
+   "nivel2": "DIPUTACIÓN PROV. DE GIRONA",
+   "nivel3": "DIPUTACIÓN PROVINCIAL DE GIRONA",
+   "n": 556,
+   "entidades": 386,
+   "importe": 4058894.75,
+   "pct_importe": 0.85
+  },
+  {
+   "pos": 23,
+   "nivel1": "LOCAL",
+   "nivel2": "DIPUTACIÓN PROV. DE LLEIDA",
+   "nivel3": "DIPUTACIÓN PROVINCIAL DE LLEIDA",
+   "n": 287,
+   "entidades": 283,
+   "importe": 4008275.71,
+   "pct_importe": 0.84
+  },
+  {
+   "pos": 24,
+   "nivel1": "ESTADO",
+   "nivel2": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+   "nivel3": "ENTIDAD PÚBLICA EMPRESARIAL RED.ES",
+   "n": 727,
+   "entidades": 708,
+   "importe": 3630390.35,
+   "pct_importe": 0.76
+  },
+  {
+   "pos": 25,
+   "nivel1": "AUTONOMICA",
+   "nivel2": "COMUNIDAD FORAL DE NAVARRA",
+   "nivel3": "INSTITUTO NAVARRO DE DEPORTE",
+   "n": 361,
+   "entidades": 160,
+   "importe": 3532239.49,
+   "pct_importe": 0.74
+  }
+ ],
+ "2025": [
+  {
+   "pos": 1,
+   "nivel1": "ESTADO",
+   "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+   "nivel3": "CONSEJO SUPERIOR DE DEPORTES",
+   "n": 625,
+   "entidades": 98,
+   "importe": 139967949.8,
+   "pct_importe": 22.76
+  },
+  {
+   "pos": 2,
+   "nivel1": "ESTADO",
+   "nivel2": "MINISTERIO DE INDUSTRIA Y TURISMO",
+   "nivel3": "COMPAÑÍA ESPAÑOLA DE REAFIANZAMIENTO, S.M.E., S.A.",
+   "n": 184,
+   "entidades": 146,
+   "importe": 32418297.39,
+   "pct_importe": 5.27
+  },
+  {
+   "pos": 3,
+   "nivel1": "AUTONOMICA",
+   "nivel2": "COMUNITAT VALENCIANA",
+   "nivel3": "SECRETARÍA AUTONÓMICA DE RELACIONES INSTITUCIONALES Y TRANSPARENCIA",
+   "n": 900,
+   "entidades": 585,
+   "importe": 31005234.32,
+   "pct_importe": 5.04
+  },
+  {
+   "pos": 4,
+   "nivel1": "AUTONOMICA",
+   "nivel2": "CATALUÑA",
+   "nivel3": "CONSELL CATALÀ DE L'ESPORT",
+   "n": 541,
+   "entidades": 458,
+   "importe": 27481168.97,
+   "pct_importe": 4.47
+  },
+  {
+   "pos": 5,
+   "nivel1": "AUTONOMICA",
+   "nivel2": "CANARIAS",
+   "nivel3": "CONSEJERÍA DE EDUCACIÓN, FORMACIÓN PROFESIONAL, ACTIVIDAD FÍSICA Y DEPORTES",
+   "n": 709,
+   "entidades": 311,
+   "importe": 18540693.72,
+   "pct_importe": 3.02
+  },
+  {
+   "pos": 6,
+   "nivel1": "LOCAL",
+   "nivel2": "CABILDO INSULAR DE GRAN CANARIA",
+   "nivel3": "INSTITUTO INS. DE DEPORTES DE GRAN CANARIA",
+   "n": 761,
+   "entidades": 372,
+   "importe": 11725751.34,
+   "pct_importe": 1.91
+  },
+  {
+   "pos": 7,
+   "nivel1": "LOCAL",
+   "nivel2": "CABILDO INSULAR DE TENERIFE",
+   "nivel3": "CABILDO INSULAR DE TENERIFE",
+   "n": 618,
+   "entidades": 370,
+   "importe": 11282427.39,
+   "pct_importe": 1.83
+  },
+  {
+   "pos": 8,
+   "nivel1": "AUTONOMICA",
+   "nivel2": "CIUDAD AUTÓNOMA DE CEUTA",
+   "nivel3": "INSTITUTO CEUTÍ DE DEPORTES",
+   "n": 123,
+   "entidades": 82,
+   "importe": 10023353.07,
+   "pct_importe": 1.63
+  },
+  {
+   "pos": 9,
+   "nivel1": "AUTONOMICA",
+   "nivel2": "ANDALUCÍA",
+   "nivel3": "CONSEJERÍA DE CULTURA Y DEPORTE",
+   "n": 617,
+   "entidades": 557,
+   "importe": 9240429.7,
+   "pct_importe": 1.5
+  },
+  {
+   "pos": 10,
+   "nivel1": "AUTONOMICA",
+   "nivel2": "CIUDAD AUTÓNOMA DE MELILLA",
+   "nivel3": "CONSEJERÍA DE EDUCACIÓN, JUVENTUD Y DEPORTES",
+   "n": 304,
+   "entidades": 80,
+   "importe": 8805300.18,
+   "pct_importe": 1.43
+  },
+  {
+   "pos": 11,
+   "nivel1": "AUTONOMICA",
+   "nivel2": "GALICIA",
+   "nivel3": "CONSELLERÍA DE PRESIDENCIA, JUSTICIA Y DEPORTES",
+   "n": 1280,
+   "entidades": 1034,
+   "importe": 7978855.43,
+   "pct_importe": 1.3
+  },
+  {
+   "pos": 12,
+   "nivel1": "AUTONOMICA",
+   "nivel2": "COMUNIDAD DE MADRID",
+   "nivel3": "CONSEJERÍA DE CULTURA, TURISMO Y DEPORTE",
+   "n": 817,
+   "entidades": 696,
+   "importe": 7891774.15,
+   "pct_importe": 1.28
+  },
+  {
+   "pos": 13,
+   "nivel1": "AUTONOMICA",
+   "nivel2": "CIUDAD AUTÓNOMA DE CEUTA",
+   "nivel3": "CONSEJERÍA DE COMERCIO, TURISMO, EMPLEO Y DEPORTE",
+   "n": 2,
+   "entidades": 1,
+   "importe": 7363837.46,
+   "pct_importe": 1.2
+  },
+  {
+   "pos": 14,
+   "nivel1": "ESTADO",
+   "nivel2": "MINISTERIO DE ECONOMÍA, COMERCIO Y EMPRESA",
+   "nivel3": "INSTITUTO DE CRÉDITO OFICIAL",
+   "n": 37,
+   "entidades": 23,
+   "importe": 7348520.0,
+   "pct_importe": 1.2
+  },
+  {
+   "pos": 15,
+   "nivel1": "AUTONOMICA",
+   "nivel2": "COMUNIDAD FORAL DE NAVARRA",
+   "nivel3": "INSTITUTO NAVARRO DE DEPORTE",
+   "n": 422,
+   "entidades": 175,
+   "importe": 7288828.97,
+   "pct_importe": 1.19
+  },
+  {
+   "pos": 16,
+   "nivel1": "LOCAL",
+   "nivel2": "LOGROÑO",
+   "nivel3": "AYUNTAMIENTO DE LOGROÑO",
+   "n": 2,
+   "entidades": 1,
+   "importe": 6800000.0,
+   "pct_importe": 1.11
+  },
+  {
+   "pos": 17,
+   "nivel1": "ESTADO",
+   "nivel2": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+   "nivel3": "ENTIDAD PÚBLICA EMPRESARIAL RED.ES",
+   "n": 1058,
+   "entidades": 1035,
+   "importe": 6052214.95,
+   "pct_importe": 0.98
+  },
+  {
+   "pos": 18,
+   "nivel1": "AUTONOMICA",
+   "nivel2": "ILLES BALEARS",
+   "nivel3": "DIRECCIÓN GENERAL DE DEPORTES",
+   "n": 791,
+   "entidades": 163,
+   "importe": 5918047.19,
+   "pct_importe": 0.96
+  },
+  {
+   "pos": 19,
+   "nivel1": "AUTONOMICA",
+   "nivel2": "CASTILLA Y LEÓN",
+   "nivel3": "CONSEJERÍA DE CULTURA, TURISMO Y DEPORTE",
+   "n": 225,
+   "entidades": 174,
+   "importe": 5518001.47,
+   "pct_importe": 0.9
+  },
+  {
+   "pos": 20,
+   "nivel1": "AUTONOMICA",
+   "nivel2": "EXTREMADURA",
+   "nivel3": "DIRECCIÓN GENERAL DE DEPORTES",
+   "n": 215,
+   "entidades": 122,
+   "importe": 5189576.0,
+   "pct_importe": 0.84
+  },
+  {
+   "pos": 21,
+   "nivel1": "LOCAL",
+   "nivel2": "DIPUTACIÓN PROV. DE GIRONA",
+   "nivel3": "DIPUTACIÓN PROVINCIAL DE GIRONA",
+   "n": 808,
+   "entidades": 554,
+   "importe": 5049774.96,
+   "pct_importe": 0.82
+  },
+  {
+   "pos": 22,
+   "nivel1": "LOCAL",
+   "nivel2": "MADRID",
+   "nivel3": "ÁREA DELEGADA DE DEPORTE",
+   "n": 732,
+   "entidades": 336,
+   "importe": 4518489.76,
+   "pct_importe": 0.73
+  },
+  {
+   "pos": 23,
+   "nivel1": "AUTONOMICA",
+   "nivel2": "ARAGÓN",
+   "nivel3": "D. GRAL. DE DEPORTE",
+   "n": 174,
+   "entidades": 101,
+   "importe": 4458449.86,
+   "pct_importe": 0.73
+  },
+  {
+   "pos": 24,
+   "nivel1": "AUTONOMICA",
+   "nivel2": "CANARIAS",
+   "nivel3": "PRESIDENCIA DEL GOBIERNO",
+   "n": 23,
+   "entidades": 20,
+   "importe": 4297633.0,
+   "pct_importe": 0.7
+  },
+  {
+   "pos": 25,
+   "nivel1": "ESTADO",
+   "nivel2": "MINISTERIO DE HACIENDA",
+   "nivel3": "AGENCIA ESTATAL DE ADMINISTRACIÓN TRIBUTARIA",
+   "n": 31,
+   "entidades": 31,
+   "importe": 3846487.28,
+   "pct_importe": 0.63
+  }
+ ]
+}

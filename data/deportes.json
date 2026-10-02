@@ -1,0 +1,601 @@
+{
+ "meta": {
+  "fuente": "BDNS – Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas (IGAE, Ministerio de Hacienda), vía descarga del episodio cci-09 «¿Quién cobra?»",
+  "url": "https://www.infosubvenciones.es/bdnstrans/api/concesiones/busqueda",
+  "periodo": "2024-2025 (año de concesión)",
+  "unidad": "EUR",
+  "descripcion": "Reparto por deporte inferido del nombre del beneficiario. «sin_clasificar» = nombre deportivo sin disciplina reconocible (p. ej. «CLUB DEPORTIVO X»)",
+  "metodo": "Beneficiario identificado como deportivo por el nombre (federaciones, clubes, SAD, patronatos, empresas deportivas) o, como señal secundaria, por convocatoria con sectores CNAE exclusivamente 93.1x.",
+  "limite": "Sólo entidades jurídicas; sólo subvenciones publicadas en BDNS (no contratos, ni cesiones de instalaciones, ni gasto directo). Clasificador por nombre con error medido en data/informe.md.",
+  "deportes_reconocidos": [
+   "futbol",
+   "baloncesto",
+   "balonmano",
+   "atletismo",
+   "natacion",
+   "ciclismo",
+   "tenis",
+   "padel",
+   "voleibol",
+   "rugby",
+   "hockey",
+   "patinaje",
+   "gimnasia",
+   "artes_marciales",
+   "boxeo",
+   "esgrima",
+   "remo_piraguismo",
+   "vela_nautica",
+   "golf",
+   "hipica",
+   "montana_escalada",
+   "esqui_invierno",
+   "triatlon",
+   "ajedrez",
+   "petanca_bolos",
+   "pelota",
+   "tiro",
+   "motor",
+   "badminton",
+   "tenis_de_mesa",
+   "halterofilia_lucha",
+   "orientacion",
+   "beisbol_softbol",
+   "squash",
+   "aeronautica",
+   "deporte_adaptado",
+   "caza_pesca",
+   "otros_deportes"
+  ]
+ },
+ "2024": [
+  {
+   "deporte": "sin_clasificar",
+   "n": 11408,
+   "entidades": 6332,
+   "importe": 161312556.41,
+   "pct_importe": 33.95
+  },
+  {
+   "deporte": "futbol",
+   "n": 2777,
+   "entidades": 1597,
+   "importe": 43145242.02,
+   "pct_importe": 9.08
+  },
+  {
+   "deporte": "baloncesto",
+   "n": 1765,
+   "entidades": 807,
+   "importe": 35369943.53,
+   "pct_importe": 7.44
+  },
+  {
+   "deporte": "natacion",
+   "n": 1263,
+   "entidades": 463,
+   "importe": 18022871.2,
+   "pct_importe": 3.79
+  },
+  {
+   "deporte": "balonmano",
+   "n": 892,
+   "entidades": 342,
+   "importe": 18000258.26,
+   "pct_importe": 3.79
+  },
+  {
+   "deporte": "voleibol",
+   "n": 909,
+   "entidades": 338,
+   "importe": 15054459.25,
+   "pct_importe": 3.17
+  },
+  {
+   "deporte": "vela_nautica",
+   "n": 965,
+   "entidades": 336,
+   "importe": 14835976.19,
+   "pct_importe": 3.12
+  },
+  {
+   "deporte": "atletismo",
+   "n": 1314,
+   "entidades": 616,
+   "importe": 14734111.94,
+   "pct_importe": 3.1
+  },
+  {
+   "deporte": "artes_marciales",
+   "n": 982,
+   "entidades": 501,
+   "importe": 10363628.71,
+   "pct_importe": 2.18
+  },
+  {
+   "deporte": "remo_piraguismo",
+   "n": 550,
+   "entidades": 203,
+   "importe": 10273000.44,
+   "pct_importe": 2.16
+  },
+  {
+   "deporte": "ciclismo",
+   "n": 1144,
+   "entidades": 642,
+   "importe": 9923232.81,
+   "pct_importe": 2.09
+  },
+  {
+   "deporte": "halterofilia_lucha",
+   "n": 505,
+   "entidades": 273,
+   "importe": 9633164.72,
+   "pct_importe": 2.03
+  },
+  {
+   "deporte": "tenis",
+   "n": 833,
+   "entidades": 391,
+   "importe": 9056322.62,
+   "pct_importe": 1.91
+  },
+  {
+   "deporte": "rugby",
+   "n": 511,
+   "entidades": 182,
+   "importe": 8768958.76,
+   "pct_importe": 1.85
+  },
+  {
+   "deporte": "motor",
+   "n": 428,
+   "entidades": 285,
+   "importe": 8269947.05,
+   "pct_importe": 1.74
+  },
+  {
+   "deporte": "hockey",
+   "n": 445,
+   "entidades": 163,
+   "importe": 7542711.58,
+   "pct_importe": 1.59
+  },
+  {
+   "deporte": "gimnasia",
+   "n": 982,
+   "entidades": 469,
+   "importe": 7509318.37,
+   "pct_importe": 1.58
+  },
+  {
+   "deporte": "montana_escalada",
+   "n": 420,
+   "entidades": 251,
+   "importe": 6787812.5,
+   "pct_importe": 1.43
+  },
+  {
+   "deporte": "patinaje",
+   "n": 673,
+   "entidades": 326,
+   "importe": 5281608.92,
+   "pct_importe": 1.11
+  },
+  {
+   "deporte": "triatlon",
+   "n": 399,
+   "entidades": 179,
+   "importe": 5234906.95,
+   "pct_importe": 1.1
+  },
+  {
+   "deporte": "deporte_adaptado",
+   "n": 232,
+   "entidades": 75,
+   "importe": 5118441.91,
+   "pct_importe": 1.08
+  },
+  {
+   "deporte": "pelota",
+   "n": 292,
+   "entidades": 165,
+   "importe": 4746019.99,
+   "pct_importe": 1.0
+  },
+  {
+   "deporte": "esqui_invierno",
+   "n": 90,
+   "entidades": 41,
+   "importe": 4575576.94,
+   "pct_importe": 0.96
+  },
+  {
+   "deporte": "golf",
+   "n": 193,
+   "entidades": 86,
+   "importe": 3815033.37,
+   "pct_importe": 0.8
+  },
+  {
+   "deporte": "tenis_de_mesa",
+   "n": 470,
+   "entidades": 221,
+   "importe": 3738485.62,
+   "pct_importe": 0.79
+  },
+  {
+   "deporte": "tiro",
+   "n": 429,
+   "entidades": 204,
+   "importe": 3699441.5,
+   "pct_importe": 0.78
+  },
+  {
+   "deporte": "badminton",
+   "n": 356,
+   "entidades": 127,
+   "importe": 3538528.58,
+   "pct_importe": 0.74
+  },
+  {
+   "deporte": "hipica",
+   "n": 197,
+   "entidades": 104,
+   "importe": 3448024.36,
+   "pct_importe": 0.73
+  },
+  {
+   "deporte": "padel",
+   "n": 331,
+   "entidades": 190,
+   "importe": 3392942.39,
+   "pct_importe": 0.71
+  },
+  {
+   "deporte": "caza_pesca",
+   "n": 383,
+   "entidades": 249,
+   "importe": 3061843.65,
+   "pct_importe": 0.64
+  },
+  {
+   "deporte": "otros_deportes",
+   "n": 440,
+   "entidades": 283,
+   "importe": 2981386.15,
+   "pct_importe": 0.63
+  },
+  {
+   "deporte": "ajedrez",
+   "n": 708,
+   "entidades": 359,
+   "importe": 2906719.25,
+   "pct_importe": 0.61
+  },
+  {
+   "deporte": "esgrima",
+   "n": 235,
+   "entidades": 74,
+   "importe": 2889852.32,
+   "pct_importe": 0.61
+  },
+  {
+   "deporte": "petanca_bolos",
+   "n": 525,
+   "entidades": 336,
+   "importe": 1884993.21,
+   "pct_importe": 0.4
+  },
+  {
+   "deporte": "beisbol_softbol",
+   "n": 124,
+   "entidades": 46,
+   "importe": 1884784.99,
+   "pct_importe": 0.4
+  },
+  {
+   "deporte": "boxeo",
+   "n": 107,
+   "entidades": 59,
+   "importe": 1814739.57,
+   "pct_importe": 0.38
+  },
+  {
+   "deporte": "orientacion",
+   "n": 103,
+   "entidades": 45,
+   "importe": 1098910.74,
+   "pct_importe": 0.23
+  },
+  {
+   "deporte": "aeronautica",
+   "n": 66,
+   "entidades": 48,
+   "importe": 803182.07,
+   "pct_importe": 0.17
+  },
+  {
+   "deporte": "squash",
+   "n": 47,
+   "entidades": 27,
+   "importe": 617418.51,
+   "pct_importe": 0.13
+  }
+ ],
+ "2025": [
+  {
+   "deporte": "sin_clasificar",
+   "n": 11834,
+   "entidades": 6489,
+   "importe": 172327495.84,
+   "pct_importe": 28.03
+  },
+  {
+   "deporte": "futbol",
+   "n": 2876,
+   "entidades": 1606,
+   "importe": 51789687.46,
+   "pct_importe": 8.42
+  },
+  {
+   "deporte": "baloncesto",
+   "n": 1883,
+   "entidades": 844,
+   "importe": 40271756.74,
+   "pct_importe": 6.55
+  },
+  {
+   "deporte": "natacion",
+   "n": 1242,
+   "entidades": 452,
+   "importe": 27171515.87,
+   "pct_importe": 4.42
+  },
+  {
+   "deporte": "motor",
+   "n": 463,
+   "entidades": 301,
+   "importe": 25885651.94,
+   "pct_importe": 4.21
+  },
+  {
+   "deporte": "atletismo",
+   "n": 1269,
+   "entidades": 585,
+   "importe": 22646254.63,
+   "pct_importe": 3.68
+  },
+  {
+   "deporte": "vela_nautica",
+   "n": 1050,
+   "entidades": 348,
+   "importe": 21684602.88,
+   "pct_importe": 3.53
+  },
+  {
+   "deporte": "balonmano",
+   "n": 962,
+   "entidades": 337,
+   "importe": 20268209.8,
+   "pct_importe": 3.3
+  },
+  {
+   "deporte": "remo_piraguismo",
+   "n": 585,
+   "entidades": 197,
+   "importe": 18750577.83,
+   "pct_importe": 3.05
+  },
+  {
+   "deporte": "voleibol",
+   "n": 1006,
+   "entidades": 366,
+   "importe": 18462098.64,
+   "pct_importe": 3.0
+  },
+  {
+   "deporte": "artes_marciales",
+   "n": 1083,
+   "entidades": 516,
+   "importe": 15437272.43,
+   "pct_importe": 2.51
+  },
+  {
+   "deporte": "ciclismo",
+   "n": 1165,
+   "entidades": 617,
+   "importe": 14727422.2,
+   "pct_importe": 2.4
+  },
+  {
+   "deporte": "halterofilia_lucha",
+   "n": 558,
+   "entidades": 293,
+   "importe": 14335166.31,
+   "pct_importe": 2.33
+  },
+  {
+   "deporte": "hockey",
+   "n": 454,
+   "entidades": 156,
+   "importe": 11230178.06,
+   "pct_importe": 1.83
+  },
+  {
+   "deporte": "tenis",
+   "n": 807,
+   "entidades": 370,
+   "importe": 10888267.14,
+   "pct_importe": 1.77
+  },
+  {
+   "deporte": "esqui_invierno",
+   "n": 89,
+   "entidades": 36,
+   "importe": 10465209.89,
+   "pct_importe": 1.7
+  },
+  {
+   "deporte": "rugby",
+   "n": 519,
+   "entidades": 188,
+   "importe": 9407423.64,
+   "pct_importe": 1.53
+  },
+  {
+   "deporte": "golf",
+   "n": 167,
+   "entidades": 77,
+   "importe": 9355954.98,
+   "pct_importe": 1.52
+  },
+  {
+   "deporte": "gimnasia",
+   "n": 963,
+   "entidades": 475,
+   "importe": 9275673.55,
+   "pct_importe": 1.51
+  },
+  {
+   "deporte": "triatlon",
+   "n": 420,
+   "entidades": 180,
+   "importe": 8436948.97,
+   "pct_importe": 1.37
+  },
+  {
+   "deporte": "deporte_adaptado",
+   "n": 248,
+   "entidades": 67,
+   "importe": 7693054.35,
+   "pct_importe": 1.25
+  },
+  {
+   "deporte": "patinaje",
+   "n": 677,
+   "entidades": 337,
+   "importe": 7265785.08,
+   "pct_importe": 1.18
+  },
+  {
+   "deporte": "montana_escalada",
+   "n": 442,
+   "entidades": 245,
+   "importe": 7262836.68,
+   "pct_importe": 1.18
+  },
+  {
+   "deporte": "tiro",
+   "n": 454,
+   "entidades": 219,
+   "importe": 6237329.32,
+   "pct_importe": 1.01
+  },
+  {
+   "deporte": "tenis_de_mesa",
+   "n": 515,
+   "entidades": 223,
+   "importe": 6054051.21,
+   "pct_importe": 0.98
+  },
+  {
+   "deporte": "pelota",
+   "n": 273,
+   "entidades": 162,
+   "importe": 5821377.83,
+   "pct_importe": 0.95
+  },
+  {
+   "deporte": "hipica",
+   "n": 204,
+   "entidades": 98,
+   "importe": 5402555.12,
+   "pct_importe": 0.88
+  },
+  {
+   "deporte": "badminton",
+   "n": 413,
+   "entidades": 126,
+   "importe": 5323138.93,
+   "pct_importe": 0.87
+  },
+  {
+   "deporte": "esgrima",
+   "n": 251,
+   "entidades": 81,
+   "importe": 4692480.69,
+   "pct_importe": 0.76
+  },
+  {
+   "deporte": "otros_deportes",
+   "n": 461,
+   "entidades": 277,
+   "importe": 4278512.34,
+   "pct_importe": 0.7
+  },
+  {
+   "deporte": "boxeo",
+   "n": 127,
+   "entidades": 61,
+   "importe": 3772293.42,
+   "pct_importe": 0.61
+  },
+  {
+   "deporte": "padel",
+   "n": 337,
+   "entidades": 192,
+   "importe": 3667650.73,
+   "pct_importe": 0.6
+  },
+  {
+   "deporte": "caza_pesca",
+   "n": 358,
+   "entidades": 236,
+   "importe": 3642993.49,
+   "pct_importe": 0.59
+  },
+  {
+   "deporte": "ajedrez",
+   "n": 674,
+   "entidades": 351,
+   "importe": 2960837.05,
+   "pct_importe": 0.48
+  },
+  {
+   "deporte": "beisbol_softbol",
+   "n": 127,
+   "entidades": 49,
+   "importe": 2713951.99,
+   "pct_importe": 0.44
+  },
+  {
+   "deporte": "petanca_bolos",
+   "n": 515,
+   "entidades": 319,
+   "importe": 2448641.82,
+   "pct_importe": 0.4
+  },
+  {
+   "deporte": "orientacion",
+   "n": 100,
+   "entidades": 47,
+   "importe": 1204997.72,
+   "pct_importe": 0.2
+  },
+  {
+   "deporte": "squash",
+   "n": 66,
+   "entidades": 24,
+   "importe": 945132.9,
+   "pct_importe": 0.15
+  },
+  {
+   "deporte": "aeronautica",
+   "n": 55,
+   "entidades": 34,
+   "importe": 672138.18,
+   "pct_importe": 0.11
+  }
+ ]
+}

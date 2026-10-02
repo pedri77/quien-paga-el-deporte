@@ -1,0 +1,25 @@
+{
+ "fuente_principal": {
+  "nombre": "BDNS – Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas (IGAE, Ministerio de Hacienda), vía descarga del episodio cci-09 «¿Quién cobra?»",
+  "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/concesiones",
+  "api": "https://www.infosubvenciones.es/bdnstrans/api/concesiones/busqueda",
+  "licencia": "Datos públicos (Ley 38/2003 General de Subvenciones, art. 20)",
+  "fichero_local": "quien-cobra/work/bdns.sqlite (episodio cci-09, sólo lectura)",
+  "periodo": "Concesiones con fecha de concesión en 2024 y 2025, según lo publicado en la BDNS hasta la descarga de cci-09 (altas hasta septiembre de 2026). La BDNS se sigue completando con retraso: ambos años pueden crecer."
+ },
+ "metodo": [
+  "Clasificación del beneficiario por nombre (regex multilingüe ES/CA/EU/GL) en 7 tipos y 38 deportes.",
+  "Señal secundaria: convocatorias cuyos sectores CNAE son exclusivamente 93.1x (227 convocatorias).",
+  "Clasificación a nivel de entidad (NIF): basta un nombre positivo.",
+  "Precisión medida a mano sobre data/muestra_validacion.json."
+ ],
+ "limites": [
+  "No es el gasto público total en deporte: faltan contratos, cesiones de instalaciones, gasto directo y subvenciones no publicadas en BDNS.",
+  "Clubes con nombre no evidente se pierden; empresas con «deporte» en el nombre pueden colarse.",
+  "Sólo dos ejercicios; la BDNS se completa con retraso y las cifras pueden crecer.",
+  "Personas físicas (deportistas becados) no incluidas: la sqlite de origen sólo carga entidades jurídicas."
+ ],
+ "scripts": [
+  "scripts/deporte_build.py"
+ ]
+}
